@@ -16,7 +16,7 @@ public class Element : MonoBehaviour
     void Start()
     {
         //randomly decide if it's a mine or not
-        mine = Random.value < 0.15;
+        mine = Random.value < 0.05;
         collider = GetComponent<BoxCollider2D>();
         //register in grid
         int x = (int)transform.position.x;
@@ -41,7 +41,6 @@ public class Element : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = explodedMine;
         }
-
     }
 
     public void flagTileActive()
@@ -61,7 +60,6 @@ public class Element : MonoBehaviour
     {
         return GetComponent<SpriteRenderer>().sprite.texture.name == "defaultTile";
     }
-
 
     void OnMouseUpAsButton()
     {

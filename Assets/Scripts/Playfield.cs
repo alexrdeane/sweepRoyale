@@ -33,17 +33,6 @@ public class Playfield : Element
         }
         return false;
     }
-
-    public static bool flagAt(int x, int y)
-    {
-        if (x >= 0 && y >= 0 && x < w && y < h)
-        {
-            return elements[x, y].tileFlagged;
-        }
-        return false;
-    }
-
-
     public static int adjacentMines(int x, int y)
     {
         int count = 0;
@@ -59,22 +48,6 @@ public class Playfield : Element
         return count;
     }
 
-    public static int adjacentFlags(int x, int y)
-    {
-        int count = 0;
-
-        if (flagAt(x, y + 1)) ++count;//top
-        if (flagAt(x + 1, y + 1)) ++count;//top-right
-        if (flagAt(x + 1, y)) ++count;//right
-        if (flagAt(x + 1, y - 1)) ++count;//bottom-right
-        if (flagAt(x, y - 1)) ++count;//bottom
-        if (flagAt(x - 1, y - 1)) ++count;//bottom-left
-        if (flagAt(x - 1, y)) ++count;//left
-        if (flagAt(x - 1, y + 1)) ++count;//top-left
-        return count;
-
-    }
-
     public static void FFuncover(int x, int y, bool[,] visited)
     {
         //coordinates in range
@@ -87,16 +60,12 @@ public class Playfield : Element
             }
             //uncover element
             elements[x, y].loadTexture(adjacentMines(x, y));
-            elements[x, y].loadTexture(adjacentFlags(x, y));
             //close to a mine? then no more work needed
             if (adjacentMines(x, y) > 0)
             {
                 return;
             }
-            if (adjacentFlags(x, y) > 0)
-            {
-                return;
-            }
+
             //set visited flag
             visited[x, y] = true;
             //recursion
