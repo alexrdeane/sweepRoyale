@@ -23,6 +23,7 @@ public class Element : MonoBehaviour
         int y = (int)transform.position.y;
         Playfield.elements[x, y] = this;
     }
+
     public void loadTexture(int adjacentCount)
     {
         if (mine)
@@ -98,7 +99,6 @@ public class Element : MonoBehaviour
 
                 }
             }
-
         }
     }
 }
