@@ -12,6 +12,7 @@ public class Element : MonoBehaviour
     public BoxCollider2D collider;
     public Sprite flagTile;
     public bool tileFlagged;
+    public Sprite tile;
     void Start()
     {
         //randomly decide if it's a mine or not
@@ -46,13 +47,12 @@ public class Element : MonoBehaviour
     public void flagTileActive()
     {
         GetComponent<SpriteRenderer>().sprite = flagTile;
-        this.collider.enabled = false;
         this.tileFlagged = true;
     }
     public void flagTileInactive()
     {
         isCovered();
-        this.collider.enabled = true;
+        GetComponent<SpriteRenderer>().sprite = tile;
         this.tileFlagged = false;
     }
 
@@ -65,7 +65,6 @@ public class Element : MonoBehaviour
     {
         if (flagButton.flagTile == true)
         {
-            flagTileActive();
             if (this.tileFlagged == true)
             {
                 flagTileInactive();
@@ -77,25 +76,29 @@ public class Element : MonoBehaviour
         }
         else
         {
-            if (mine)
+            if (!tileFlagged)
             {
-                Playfield.gameEnded();
-                //uncovers all mines
-                Playfield.uncoverMines();
-                this.loadExploded();
-                //game over
-                print("you lose");
-            }
-            //it's not a mine
-            else
-            {
-                int x = (int)transform.position.x;
-                int y = (int)transform.position.y;
-                loadTexture(Playfield.adjacentMines(x, y));
+                if (mine)
+                {
+                    Playfield.gameEnded();
+                    //uncovers all mines
+                    Playfield.uncoverMines();
+                    this.loadExploded();
+                    //game over
+                    print("you lose");
+                }
+                //it's not a mine
+                else
+                {
+                    int x = (int)transform.position.x;
+                    int y = (int)transform.position.y;
+                    loadTexture(Playfield.adjacentMines(x, y));
 
-                Playfield.FFuncover(x, y, new bool[Playfield.w, Playfield.h]);
+                    Playfield.FFuncover(x, y, new bool[Playfield.w, Playfield.h]);
 
+                }
             }
+
         }
     }
 }
