@@ -13,10 +13,13 @@ public class Element : MonoBehaviour
     public Sprite flagTile;
     public bool tileFlagged;
     public Sprite tile;
+    public static int w = 10;//width
+    public static int h = 13;//height
+    public static Element[,] elements = new Element[w, h];
     void Start()
     {
         //randomly decide if it's a mine or not
-        mine = Random.value < 0.15;
+        mine = Random.value < 0.05;
         collider = GetComponent<BoxCollider2D>();
         //register in grid
         int x = (int)transform.position.x;
