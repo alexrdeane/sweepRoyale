@@ -6,7 +6,6 @@ public class Element : MonoBehaviour
 {
     //is this a mine?
     public bool mine;
-    public bool gameEnded = false;
     public Sprite[] emptyTextures;
     public Sprite mineTexture;
     public Sprite explodedMine;
@@ -32,6 +31,7 @@ public class Element : MonoBehaviour
         else
         {
             GetComponent<SpriteRenderer>().sprite = emptyTextures[adjacentCount];
+            this.collider.enabled = false;
         }
     }
 
