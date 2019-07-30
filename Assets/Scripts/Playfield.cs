@@ -5,32 +5,21 @@ using UnityEngine;
 
 public class Playfield : Element
 {
+    //variables
+    #region variables
     //width and height of playfield
     public static int w = 10;
     public static int h = 13;
-    //
+    //the grid itself
     public static Element[,] elements = new Element[w, h];
+    //boolean if the game is over
     public static bool gameEndedBool;
-
-    public static void gameEnded()
-    {
-        foreach (Element elem in elements)
-        {
-            elem.collider.enabled = false;
-        }
-        gameEndedBool = true;
-    }
-    public static void uncoverMines()
-    {
-        foreach (Element elem in elements)
-        {
-            if (elem.mine) elem.loadTexture(0);
-        }
-    }
-
+    #endregion
+    //check for mines if element is pressed / checks around the mine for more and returns the amount within the area / if the element is a mine reveal
+    #region mine functions
     public static bool mineAt(int x, int y)
     {
-        //coordinates in range? then check for mine
+        //coordinates in range then check for mine
         if (x >= 0 && y >= 0 && x < w && y < h)
         {
             return elements[x, y].mine;
@@ -38,6 +27,7 @@ public class Playfield : Element
         return false;
     }
 
+    //counts adjacent mines for an element
     public static int adjacentMines(int x, int y)
     {
         int count = 0;
@@ -52,7 +42,28 @@ public class Playfield : Element
         if (mineAt(x - 1, y + 1)) ++count;//top-left
         return count;
     }
-
+    //uncovers all mines
+    public static void uncoverMines()
+    {
+        foreach (Element elem in elements)
+        {
+            if (elem.mine) elem.loadTexture(0);
+        }
+    }
+    #endregion
+    //removes all the colliders of elements sets gameEndedBool to true
+    #region game over
+    public static void gameEnded()
+    {
+        foreach (Element elem in elements)
+        {
+            elem.collider.enabled = false;
+        }
+        gameEndedBool = true;
+    }
+    #endregion
+    // if a large cluster of tiles is empty it will remove them all
+    #region uncover empty mines
     public static void FFuncover(int x, int y, bool[,] visited)
     {
         //coordinates in range
@@ -81,4 +92,5 @@ public class Playfield : Element
 
         }
     }
+    #endregion
 }

@@ -2,23 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class flagButton : MonoBehaviour
+public class FlagButton : MonoBehaviour
 {
+    //variables
+    #region variables
     public static bool flagTile = false;
-    public Sprite uiFlagActive;
-    public Sprite uiFlagInactive;
+    public Sprite[] uiFlag;
+    #endregion
+    //sets the button to the active or not active sprites
+    #region OnMouseUpAsButton
     void OnMouseUpAsButton()
     {
         if (flagTile == true)
         {
-            GetComponent<SpriteRenderer>().sprite = uiFlagInactive;
+            GetComponent<SpriteRenderer>().sprite = uiFlag[1];
             flagTile = false;
         }
         else
         {
-            GetComponent<SpriteRenderer>().sprite = uiFlagActive;
+            GetComponent<SpriteRenderer>().sprite = uiFlag[0];
             flagTile = true;
         }
-        Debug.Log(flagTile);
     }
+    #endregion
 }

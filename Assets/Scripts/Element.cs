@@ -92,7 +92,7 @@ public class Element : MonoBehaviour
         // if the flag button is active any tile the player presses will become a flagged tile, if a flagged tile is pressed whilst the flag button it will reset the tile back to being unflagged
         #region flagging and unflagging
         //if the flagTile bool is active
-        if (flagButton.flagTile == true)
+        if (FlagButton.flagTile == true)
         {
             //if this tile is flagged
             if (this.tileFlagged == true)

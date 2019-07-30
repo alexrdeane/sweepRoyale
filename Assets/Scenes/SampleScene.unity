@@ -233,6 +233,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -246,9 +249,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &20233514
 GameObject:
@@ -371,6 +371,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -384,9 +387,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &43606680
 GameObject:
@@ -509,6 +509,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -522,9 +525,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &49064130
 GameObject:
@@ -647,6 +647,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -660,9 +663,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &82212230
 GameObject:
@@ -785,6 +785,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -798,9 +801,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &101076148
 GameObject:
@@ -923,6 +923,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -936,9 +939,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &112559693
 GameObject:
@@ -1061,6 +1061,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1074,9 +1077,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &156131620
 GameObject:
@@ -1199,6 +1199,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1212,9 +1215,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &163298972
 GameObject:
@@ -1337,6 +1337,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1350,9 +1353,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &170040462
 GameObject:
@@ -1475,6 +1475,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1488,9 +1491,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &229276604
 GameObject:
@@ -1522,8 +1522,8 @@ Transform:
   m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 653144084}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &229276606
 MonoBehaviour:
@@ -1537,8 +1537,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 659c175a616409545a1553e079747b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiFlagActive: {fileID: 21300016, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  uiFlagInactive: {fileID: 21300014, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  uiFlag:
+  - {fileID: 21300016, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300014, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!61 &229276607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1734,6 +1735,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1747,9 +1751,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &250760310
 GameObject:
@@ -1872,6 +1873,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1885,9 +1889,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &267132291
 GameObject:
@@ -2010,6 +2011,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2023,9 +2027,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &305218588
 GameObject:
@@ -2148,6 +2149,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2161,9 +2165,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &313511778
 GameObject:
@@ -2286,6 +2287,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2299,9 +2303,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &336988188
 GameObject:
@@ -2424,6 +2425,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2437,9 +2441,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &380241232
 GameObject:
@@ -2562,6 +2563,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2575,9 +2579,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &382802423
 GameObject:
@@ -2700,6 +2701,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2713,9 +2717,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &416289771
 GameObject:
@@ -2838,6 +2839,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2851,9 +2855,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &484301255
 GameObject:
@@ -2976,6 +2977,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2989,9 +2993,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &487652125
 GameObject:
@@ -3114,6 +3115,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3127,9 +3131,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &491208253
 GameObject:
@@ -3252,6 +3253,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3265,9 +3269,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &493409110
 GameObject:
@@ -3390,6 +3391,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3403,9 +3407,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &497188162
 GameObject:
@@ -3528,6 +3529,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3541,9 +3545,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &500257889
 GameObject:
@@ -3666,6 +3667,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3679,9 +3683,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &509613003
 GameObject:
@@ -3804,6 +3805,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3817,9 +3821,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &518197654
 GameObject:
@@ -3942,6 +3943,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3955,9 +3959,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
@@ -4115,12 +4116,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524564068}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 653144084}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &524564071
 MonoBehaviour:
@@ -4134,8 +4135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3725fdf49bdeb154b84248a0c5a3d6a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameActive: {fileID: 21300078, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  gameLost: {fileID: 21300080, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  gameEmoji:
+  - {fileID: 21300078, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300080, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   gameEnded: 0
 --- !u!61 &524564072
 BoxCollider2D:
@@ -4284,6 +4286,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -4297,9 +4302,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &529651452
 GameObject:
@@ -4422,6 +4424,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -4435,9 +4440,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &530912794
 GameObject:
@@ -4560,6 +4562,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -4573,9 +4578,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &540669261
 GameObject:
@@ -4698,6 +4700,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -4711,9 +4716,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &556693057
 GameObject:
@@ -4725,7 +4727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 556693058}
   m_Layer: 0
-  m_Name: mineField
+  m_Name: MineField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4738,7 +4740,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556693057}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4872,8 +4874,8 @@ Transform:
   - {fileID: 574673744}
   - {fileID: 1784139329}
   - {fileID: 886935619}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1847958838}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &564366070
 GameObject:
@@ -4996,6 +4998,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5009,9 +5014,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &574673741
 GameObject:
@@ -5134,6 +5136,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5147,9 +5152,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &600303977
 GameObject:
@@ -5272,6 +5274,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5285,9 +5290,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &616793682
 GameObject:
@@ -5410,6 +5412,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5423,9 +5428,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &625822761
 GameObject:
@@ -5548,6 +5550,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5561,9 +5566,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &631881819
 GameObject:
@@ -5686,6 +5688,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5699,9 +5704,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &633090334
 GameObject:
@@ -5824,6 +5826,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5837,10 +5842,39 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
+--- !u!1 &653144083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653144084}
+  m_Layer: 0
+  m_Name: UIButtons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &653144084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653144083}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 229276605}
+  - {fileID: 524564070}
+  m_Father: {fileID: 1847958838}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &663798368
 GameObject:
   m_ObjectHideFlags: 0
@@ -5962,6 +5996,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5975,9 +6012,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &671723996
 GameObject:
@@ -6100,6 +6134,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6113,9 +6150,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &685313175
 GameObject:
@@ -6238,6 +6272,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6251,9 +6288,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &715274902
 GameObject:
@@ -6376,6 +6410,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6389,9 +6426,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &715764731
 GameObject:
@@ -6514,6 +6548,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6527,9 +6564,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &716623529
 GameObject:
@@ -6652,6 +6686,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6665,9 +6702,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &720714011
 GameObject:
@@ -6790,6 +6824,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6803,9 +6840,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &729220541
 GameObject:
@@ -6928,6 +6962,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6941,9 +6978,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &737005873
 GameObject:
@@ -7066,6 +7100,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7079,9 +7116,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &742046968
 GameObject:
@@ -7204,6 +7238,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7217,9 +7254,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &755256275
 GameObject:
@@ -7342,6 +7376,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7355,9 +7392,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &755376530
 GameObject:
@@ -7480,6 +7514,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7493,9 +7530,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &790465094
 GameObject:
@@ -7618,6 +7652,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7631,9 +7668,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &801664258
 GameObject:
@@ -7756,6 +7790,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7769,9 +7806,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &817597105
 GameObject:
@@ -7894,6 +7928,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7907,9 +7944,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &833405898
 GameObject:
@@ -8032,6 +8066,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8045,9 +8082,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &864283466
 GameObject:
@@ -8170,6 +8204,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8183,9 +8220,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &882185596
 GameObject:
@@ -8308,6 +8342,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8321,9 +8358,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &886935616
 GameObject:
@@ -8446,6 +8480,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8459,9 +8496,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &913877708
 GameObject:
@@ -8584,6 +8618,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8597,9 +8634,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &931904005
 GameObject:
@@ -8722,6 +8756,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8735,9 +8772,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &945463413
 GameObject:
@@ -8860,6 +8894,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8873,9 +8910,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &948894777
 GameObject:
@@ -8998,6 +9032,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9011,9 +9048,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &967580907
 GameObject:
@@ -9136,6 +9170,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9149,9 +9186,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &976482954
 GameObject:
@@ -9274,6 +9308,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9287,9 +9324,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &993822344
 GameObject:
@@ -9412,6 +9446,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9425,9 +9462,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &995273058
 GameObject:
@@ -9550,6 +9584,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9563,9 +9600,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1006747818
 GameObject:
@@ -9688,6 +9722,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9701,9 +9738,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1008969921
 GameObject:
@@ -9826,6 +9860,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9839,9 +9876,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1045772655
 GameObject:
@@ -9964,6 +9998,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9977,9 +10014,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1058169703
 GameObject:
@@ -10102,6 +10136,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10115,9 +10152,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1063481261
 GameObject:
@@ -10240,6 +10274,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10253,9 +10290,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1064502281
 GameObject:
@@ -10378,6 +10412,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10391,9 +10428,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1068284844
 GameObject:
@@ -10516,6 +10550,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10529,9 +10566,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1069650734
 GameObject:
@@ -10654,6 +10688,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10667,9 +10704,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1083744432
 GameObject:
@@ -10792,6 +10826,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10805,9 +10842,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1096651738
 GameObject:
@@ -10930,6 +10964,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10943,9 +10980,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1148826895
 GameObject:
@@ -11068,6 +11102,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11081,9 +11118,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1155096676
 GameObject:
@@ -11206,6 +11240,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11219,9 +11256,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1159764991
 GameObject:
@@ -11344,6 +11378,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11357,9 +11394,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1159841814
 GameObject:
@@ -11482,6 +11516,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11495,9 +11532,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1183109958
 GameObject:
@@ -11620,6 +11654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11633,9 +11670,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1213622702
 GameObject:
@@ -11758,6 +11792,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11771,53 +11808,7 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
---- !u!1 &1234894622
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1234894624}
-  - component: {fileID: 1234894623}
-  m_Layer: 0
-  m_Name: Grid
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!156049354 &1234894623
-Grid:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234894622}
-  m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
-  m_CellGap: {x: 0, y: 0, z: 0}
-  m_CellLayout: 0
-  m_CellSwizzle: 0
---- !u!4 &1234894624
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234894622}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1237243170
 GameObject:
   m_ObjectHideFlags: 0
@@ -11939,6 +11930,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11952,9 +11946,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1243000251
 GameObject:
@@ -12077,6 +12068,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12090,9 +12084,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1264790233
 GameObject:
@@ -12215,6 +12206,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12228,9 +12222,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1266030163
 GameObject:
@@ -12353,6 +12344,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12366,9 +12360,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1294458677
 GameObject:
@@ -12491,6 +12482,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12504,9 +12498,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1322034086
 GameObject:
@@ -12629,6 +12620,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12642,9 +12636,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1350578685
 GameObject:
@@ -12767,6 +12758,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12780,9 +12774,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1351967409
 GameObject:
@@ -12905,6 +12896,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12918,9 +12912,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1371953959
 GameObject:
@@ -13043,6 +13034,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13056,9 +13050,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1413748143
 GameObject:
@@ -13181,6 +13172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13194,9 +13188,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1447334422
 GameObject:
@@ -13319,6 +13310,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13332,9 +13326,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1461957180
 GameObject:
@@ -13457,6 +13448,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13470,9 +13464,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1476331117
 GameObject:
@@ -13595,6 +13586,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13608,9 +13602,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1478842359
 GameObject:
@@ -13733,6 +13724,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13746,9 +13740,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1483940529
 GameObject:
@@ -13871,6 +13862,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13884,9 +13878,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1487374792
 GameObject:
@@ -14009,6 +14000,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14022,9 +14016,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1487787801
 GameObject:
@@ -14147,6 +14138,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14160,9 +14154,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1492140815
 GameObject:
@@ -14285,6 +14276,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14298,9 +14292,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1500767476
 GameObject:
@@ -14423,6 +14414,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14436,9 +14430,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1507648469
 GameObject:
@@ -14561,6 +14552,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14574,9 +14568,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1514634689
 GameObject:
@@ -14699,6 +14690,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14712,9 +14706,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1592338736
 GameObject:
@@ -14837,6 +14828,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14850,9 +14844,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1609279319
 GameObject:
@@ -14975,6 +14966,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14988,9 +14982,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1612541104
 GameObject:
@@ -15113,6 +15104,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15126,9 +15120,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1618824166
 GameObject:
@@ -15251,6 +15242,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15264,9 +15258,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1643471340
 GameObject:
@@ -15389,6 +15380,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15402,9 +15396,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1685325243
 GameObject:
@@ -15527,6 +15518,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15540,9 +15534,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1707948283
 GameObject:
@@ -15665,6 +15656,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15678,9 +15672,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1712116463
 GameObject:
@@ -15803,6 +15794,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15816,9 +15810,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1744254777
 GameObject:
@@ -15941,6 +15932,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15954,9 +15948,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1780229376
 GameObject:
@@ -16079,6 +16070,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16092,9 +16086,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1784139326
 GameObject:
@@ -16217,6 +16208,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16230,9 +16224,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1813227151
 GameObject:
@@ -16355,6 +16346,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16368,9 +16362,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1840765568
 GameObject:
@@ -16493,6 +16484,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16506,10 +16500,39 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
+--- !u!1 &1847958837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1847958838}
+  m_Layer: 0
+  m_Name: Minesweeper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1847958838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847958837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 653144084}
+  - {fileID: 556693058}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1869320825
 GameObject:
   m_ObjectHideFlags: 0
@@ -16631,6 +16654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16644,9 +16670,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1887422119
 GameObject:
@@ -16769,6 +16792,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16782,9 +16808,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1899875265
 GameObject:
@@ -16907,6 +16930,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16920,9 +16946,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1901120177
 GameObject:
@@ -17045,6 +17068,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17058,9 +17084,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1929300023
 GameObject:
@@ -17183,6 +17206,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17196,9 +17222,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1929715757
 GameObject:
@@ -17321,6 +17344,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17334,9 +17360,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1952081762
 GameObject:
@@ -17459,6 +17482,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17472,9 +17498,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1983508963
 GameObject:
@@ -17597,6 +17620,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17610,9 +17636,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1996106447
 GameObject:
@@ -17735,6 +17758,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17748,9 +17774,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &1998312136
 GameObject:
@@ -17873,6 +17896,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17886,9 +17912,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &2001718396
 GameObject:
@@ -18011,6 +18034,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -18024,9 +18050,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &2011138245
 GameObject:
@@ -18149,6 +18172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -18162,9 +18188,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &2012801352
 GameObject:
@@ -18287,6 +18310,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -18300,9 +18326,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &2028815925
 GameObject:
@@ -18425,6 +18448,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -18438,9 +18464,6 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
 --- !u!1 &2050219327
 GameObject:
@@ -18563,6 +18586,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: 0
   tileFlagged: 0
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -18576,7 +18602,4 @@ MonoBehaviour:
   mineTextures:
   - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  defaultTiles:
-  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
