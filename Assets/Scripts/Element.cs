@@ -22,7 +22,7 @@ public class Element : MonoBehaviour
     void Start()
     {
         //randomly decide if it's a mine or not
-        mine = Random.value < 0.05;
+        mine = Random.value < 0.15;
         //gets colliders from tiles
         collider = GetComponent<BoxCollider2D>();
         //register in grid
