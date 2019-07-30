@@ -232,6 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -242,12 +243,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &20233514
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -378,12 +381,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &43606680
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -514,12 +519,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &49064130
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,6 +646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -650,12 +657,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &82212230
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,6 +784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -786,12 +795,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &101076148
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -922,12 +933,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &112559693
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,6 +1060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1058,12 +1071,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &156131620
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1194,12 +1209,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &163298972
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,6 +1336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1330,12 +1347,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &170040462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,6 +1474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1466,12 +1485,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &229276604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,6 +1733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1723,12 +1744,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &250760310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,6 +1871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1859,12 +1882,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &267132291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1985,6 +2009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -1995,12 +2020,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &305218588
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,6 +2147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2131,12 +2158,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &313511778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,6 +2285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2267,12 +2296,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &336988188
 GameObject:
   m_ObjectHideFlags: 0
@@ -2393,6 +2423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2403,12 +2434,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &380241232
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,6 +2561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2539,12 +2572,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &382802423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2665,6 +2699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2675,12 +2710,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &416289771
 GameObject:
   m_ObjectHideFlags: 0
@@ -2801,6 +2837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2811,12 +2848,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &484301255
 GameObject:
   m_ObjectHideFlags: 0
@@ -2937,6 +2975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -2947,12 +2986,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &487652125
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,6 +3113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3083,12 +3124,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &491208253
 GameObject:
   m_ObjectHideFlags: 0
@@ -3209,6 +3251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3219,12 +3262,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &493409110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3345,6 +3389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3355,12 +3400,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &497188162
 GameObject:
   m_ObjectHideFlags: 0
@@ -3481,6 +3527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3491,12 +3538,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &500257889
 GameObject:
   m_ObjectHideFlags: 0
@@ -3617,6 +3665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3627,12 +3676,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &509613003
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,6 +3803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3763,12 +3814,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &518197654
 GameObject:
   m_ObjectHideFlags: 0
@@ -3889,6 +3941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -3899,12 +3952,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4229,6 +4283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -4239,12 +4294,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &529651452
 GameObject:
   m_ObjectHideFlags: 0
@@ -4365,6 +4421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -4375,12 +4432,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &530912794
 GameObject:
   m_ObjectHideFlags: 0
@@ -4501,6 +4559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -4511,12 +4570,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &540669261
 GameObject:
   m_ObjectHideFlags: 0
@@ -4637,6 +4697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -4647,12 +4708,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &556693057
 GameObject:
   m_ObjectHideFlags: 0
@@ -4933,6 +4995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -4943,12 +5006,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &574673741
 GameObject:
   m_ObjectHideFlags: 0
@@ -5069,6 +5133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5079,12 +5144,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &600303977
 GameObject:
   m_ObjectHideFlags: 0
@@ -5205,6 +5271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5215,12 +5282,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &616793682
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,6 +5409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5351,12 +5420,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &625822761
 GameObject:
   m_ObjectHideFlags: 0
@@ -5477,6 +5547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5487,12 +5558,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &631881819
 GameObject:
   m_ObjectHideFlags: 0
@@ -5613,6 +5685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5623,12 +5696,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &633090334
 GameObject:
   m_ObjectHideFlags: 0
@@ -5749,6 +5823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5759,12 +5834,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &663798368
 GameObject:
   m_ObjectHideFlags: 0
@@ -5885,6 +5961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -5895,12 +5972,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &671723996
 GameObject:
   m_ObjectHideFlags: 0
@@ -6021,6 +6099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6031,12 +6110,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &685313175
 GameObject:
   m_ObjectHideFlags: 0
@@ -6157,6 +6237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6167,12 +6248,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &715274902
 GameObject:
   m_ObjectHideFlags: 0
@@ -6293,6 +6375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6303,12 +6386,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &715764731
 GameObject:
   m_ObjectHideFlags: 0
@@ -6429,6 +6513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6439,12 +6524,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &716623529
 GameObject:
   m_ObjectHideFlags: 0
@@ -6565,6 +6651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6575,12 +6662,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &720714011
 GameObject:
   m_ObjectHideFlags: 0
@@ -6701,6 +6789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6711,12 +6800,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &729220541
 GameObject:
   m_ObjectHideFlags: 0
@@ -6837,6 +6927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6847,12 +6938,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &737005873
 GameObject:
   m_ObjectHideFlags: 0
@@ -6973,6 +7065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -6983,12 +7076,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &742046968
 GameObject:
   m_ObjectHideFlags: 0
@@ -7109,6 +7203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7119,12 +7214,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &755256275
 GameObject:
   m_ObjectHideFlags: 0
@@ -7245,6 +7341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7255,12 +7352,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &755376530
 GameObject:
   m_ObjectHideFlags: 0
@@ -7381,6 +7479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7391,12 +7490,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &790465094
 GameObject:
   m_ObjectHideFlags: 0
@@ -7517,6 +7617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7527,12 +7628,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &801664258
 GameObject:
   m_ObjectHideFlags: 0
@@ -7653,6 +7755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7663,12 +7766,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &817597105
 GameObject:
   m_ObjectHideFlags: 0
@@ -7789,6 +7893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7799,12 +7904,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &833405898
 GameObject:
   m_ObjectHideFlags: 0
@@ -7925,6 +8031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -7935,12 +8042,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &864283466
 GameObject:
   m_ObjectHideFlags: 0
@@ -8061,6 +8169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8071,12 +8180,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &882185596
 GameObject:
   m_ObjectHideFlags: 0
@@ -8197,6 +8307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8207,12 +8318,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &886935616
 GameObject:
   m_ObjectHideFlags: 0
@@ -8333,6 +8445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8343,12 +8456,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &913877708
 GameObject:
   m_ObjectHideFlags: 0
@@ -8469,6 +8583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8479,12 +8594,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &931904005
 GameObject:
   m_ObjectHideFlags: 0
@@ -8605,6 +8721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8615,12 +8732,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &945463413
 GameObject:
   m_ObjectHideFlags: 0
@@ -8741,6 +8859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8751,12 +8870,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &948894777
 GameObject:
   m_ObjectHideFlags: 0
@@ -8877,6 +8997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -8887,12 +9008,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &967580907
 GameObject:
   m_ObjectHideFlags: 0
@@ -9013,6 +9135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9023,12 +9146,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &976482954
 GameObject:
   m_ObjectHideFlags: 0
@@ -9149,6 +9273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9159,12 +9284,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &993822344
 GameObject:
   m_ObjectHideFlags: 0
@@ -9285,6 +9411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9295,12 +9422,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &995273058
 GameObject:
   m_ObjectHideFlags: 0
@@ -9421,6 +9549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9431,12 +9560,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1006747818
 GameObject:
   m_ObjectHideFlags: 0
@@ -9557,6 +9687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9567,12 +9698,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1008969921
 GameObject:
   m_ObjectHideFlags: 0
@@ -9693,6 +9825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9703,12 +9836,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1045772655
 GameObject:
   m_ObjectHideFlags: 0
@@ -9829,6 +9963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9839,12 +9974,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1058169703
 GameObject:
   m_ObjectHideFlags: 0
@@ -9965,6 +10101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -9975,12 +10112,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1063481261
 GameObject:
   m_ObjectHideFlags: 0
@@ -10101,6 +10239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10111,12 +10250,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1064502281
 GameObject:
   m_ObjectHideFlags: 0
@@ -10237,6 +10377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10247,12 +10388,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1068284844
 GameObject:
   m_ObjectHideFlags: 0
@@ -10373,6 +10515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10383,12 +10526,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1069650734
 GameObject:
   m_ObjectHideFlags: 0
@@ -10509,6 +10653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10519,12 +10664,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1083744432
 GameObject:
   m_ObjectHideFlags: 0
@@ -10645,6 +10791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10655,12 +10802,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1096651738
 GameObject:
   m_ObjectHideFlags: 0
@@ -10781,6 +10929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10791,12 +10940,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1148826895
 GameObject:
   m_ObjectHideFlags: 0
@@ -10917,6 +11067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -10927,12 +11078,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1155096676
 GameObject:
   m_ObjectHideFlags: 0
@@ -11053,6 +11205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11063,12 +11216,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1159764991
 GameObject:
   m_ObjectHideFlags: 0
@@ -11189,6 +11343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11199,12 +11354,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1159841814
 GameObject:
   m_ObjectHideFlags: 0
@@ -11325,6 +11481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11335,12 +11492,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1183109958
 GameObject:
   m_ObjectHideFlags: 0
@@ -11461,6 +11619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11471,12 +11630,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1213622702
 GameObject:
   m_ObjectHideFlags: 0
@@ -11597,6 +11757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11607,12 +11768,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1234894622
 GameObject:
   m_ObjectHideFlags: 0
@@ -11776,6 +11938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11786,12 +11949,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1243000251
 GameObject:
   m_ObjectHideFlags: 0
@@ -11912,6 +12076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -11922,12 +12087,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1264790233
 GameObject:
   m_ObjectHideFlags: 0
@@ -12048,6 +12214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12058,12 +12225,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1266030163
 GameObject:
   m_ObjectHideFlags: 0
@@ -12184,6 +12352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12194,12 +12363,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1294458677
 GameObject:
   m_ObjectHideFlags: 0
@@ -12320,6 +12490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12330,12 +12501,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1322034086
 GameObject:
   m_ObjectHideFlags: 0
@@ -12456,6 +12628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12466,12 +12639,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1350578685
 GameObject:
   m_ObjectHideFlags: 0
@@ -12592,6 +12766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12602,12 +12777,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1351967409
 GameObject:
   m_ObjectHideFlags: 0
@@ -12728,6 +12904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12738,12 +12915,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1371953959
 GameObject:
   m_ObjectHideFlags: 0
@@ -12864,6 +13042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -12874,12 +13053,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1413748143
 GameObject:
   m_ObjectHideFlags: 0
@@ -13000,6 +13180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13010,12 +13191,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1447334422
 GameObject:
   m_ObjectHideFlags: 0
@@ -13136,6 +13318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13146,12 +13329,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1461957180
 GameObject:
   m_ObjectHideFlags: 0
@@ -13272,6 +13456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13282,12 +13467,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1476331117
 GameObject:
   m_ObjectHideFlags: 0
@@ -13408,6 +13594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13418,12 +13605,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1478842359
 GameObject:
   m_ObjectHideFlags: 0
@@ -13544,6 +13732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13554,12 +13743,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1483940529
 GameObject:
   m_ObjectHideFlags: 0
@@ -13680,6 +13870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13690,12 +13881,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1487374792
 GameObject:
   m_ObjectHideFlags: 0
@@ -13816,6 +14008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13826,12 +14019,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1487787801
 GameObject:
   m_ObjectHideFlags: 0
@@ -13952,6 +14146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -13962,12 +14157,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1492140815
 GameObject:
   m_ObjectHideFlags: 0
@@ -14088,6 +14284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14098,12 +14295,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1500767476
 GameObject:
   m_ObjectHideFlags: 0
@@ -14224,6 +14422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14234,12 +14433,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1507648469
 GameObject:
   m_ObjectHideFlags: 0
@@ -14360,6 +14560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14370,12 +14571,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1514634689
 GameObject:
   m_ObjectHideFlags: 0
@@ -14496,6 +14698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14506,12 +14709,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1592338736
 GameObject:
   m_ObjectHideFlags: 0
@@ -14632,6 +14836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14642,12 +14847,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1609279319
 GameObject:
   m_ObjectHideFlags: 0
@@ -14768,6 +14974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14778,12 +14985,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1612541104
 GameObject:
   m_ObjectHideFlags: 0
@@ -14904,6 +15112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -14914,12 +15123,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1618824166
 GameObject:
   m_ObjectHideFlags: 0
@@ -15040,6 +15250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15050,12 +15261,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1643471340
 GameObject:
   m_ObjectHideFlags: 0
@@ -15176,6 +15388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15186,12 +15399,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1685325243
 GameObject:
   m_ObjectHideFlags: 0
@@ -15312,6 +15526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15322,12 +15537,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1707948283
 GameObject:
   m_ObjectHideFlags: 0
@@ -15448,6 +15664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15458,12 +15675,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1712116463
 GameObject:
   m_ObjectHideFlags: 0
@@ -15584,6 +15802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15594,12 +15813,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1744254777
 GameObject:
   m_ObjectHideFlags: 0
@@ -15720,6 +15940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15730,12 +15951,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1780229376
 GameObject:
   m_ObjectHideFlags: 0
@@ -15856,6 +16078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -15866,12 +16089,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1784139326
 GameObject:
   m_ObjectHideFlags: 0
@@ -15992,6 +16216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16002,12 +16227,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1813227151
 GameObject:
   m_ObjectHideFlags: 0
@@ -16128,6 +16354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16138,12 +16365,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1840765568
 GameObject:
   m_ObjectHideFlags: 0
@@ -16264,6 +16492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16274,12 +16503,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1869320825
 GameObject:
   m_ObjectHideFlags: 0
@@ -16400,6 +16630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16410,12 +16641,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1887422119
 GameObject:
   m_ObjectHideFlags: 0
@@ -16536,6 +16768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16546,12 +16779,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1899875265
 GameObject:
   m_ObjectHideFlags: 0
@@ -16672,6 +16906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16682,12 +16917,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1901120177
 GameObject:
   m_ObjectHideFlags: 0
@@ -16808,6 +17044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16818,12 +17055,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1929300023
 GameObject:
   m_ObjectHideFlags: 0
@@ -16944,6 +17182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -16954,12 +17193,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1929715757
 GameObject:
   m_ObjectHideFlags: 0
@@ -17080,6 +17320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17090,12 +17331,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1952081762
 GameObject:
   m_ObjectHideFlags: 0
@@ -17216,6 +17458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17226,12 +17469,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1983508963
 GameObject:
   m_ObjectHideFlags: 0
@@ -17352,6 +17596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17362,12 +17607,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1996106447
 GameObject:
   m_ObjectHideFlags: 0
@@ -17488,6 +17734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17498,12 +17745,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &1998312136
 GameObject:
   m_ObjectHideFlags: 0
@@ -17624,6 +17872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17634,12 +17883,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &2001718396
 GameObject:
   m_ObjectHideFlags: 0
@@ -17760,6 +18010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17770,12 +18021,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &2011138245
 GameObject:
   m_ObjectHideFlags: 0
@@ -17896,6 +18148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -17906,12 +18159,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &2012801352
 GameObject:
   m_ObjectHideFlags: 0
@@ -18032,6 +18286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -18042,12 +18297,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &2028815925
 GameObject:
   m_ObjectHideFlags: 0
@@ -18168,6 +18424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -18178,12 +18435,13 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
 --- !u!1 &2050219327
 GameObject:
   m_ObjectHideFlags: 0
@@ -18304,6 +18562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mine: 0
+  tileFlagged: 0
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
@@ -18314,9 +18573,10 @@ MonoBehaviour:
   - {fileID: 21300030, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300032, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300034, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  mineTexture: {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  explodedMine: {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  mineTextures:
+  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  defaultTiles:
+  - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   collider: {fileID: 0}
-  flagTile: {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  tileFlagged: 0
-  tile: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
