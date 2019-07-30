@@ -12,6 +12,7 @@ public class Element : MonoBehaviour
     public BoxCollider2D collider;
     public Sprite flagTile;
     public bool tileFlagged;
+    public static bool playfieldTileFlagged;
     public Sprite tile;
     public static int w = 10;//width
     public static int h = 13;//height
@@ -33,11 +34,20 @@ public class Element : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = mineTexture;
         }
+        else if (tileFlagged)
+        {
+            flagTileActive();
+        }
         else
         {
             GetComponent<SpriteRenderer>().sprite = emptyTextures[adjacentCount];
             this.collider.enabled = false;
         }
+    }
+
+    public void flagTexture()
+    {
+        GetComponent<SpriteRenderer>().sprite = tile;
     }
 
     public void loadExploded()
@@ -58,6 +68,7 @@ public class Element : MonoBehaviour
         isCovered();
         GetComponent<SpriteRenderer>().sprite = tile;
         this.tileFlagged = false;
+        playfieldTileFlagged = tileFlagged;
     }
 
     public bool isCovered()
@@ -97,9 +108,7 @@ public class Element : MonoBehaviour
                     int x = (int)transform.position.x;
                     int y = (int)transform.position.y;
                     loadTexture(Playfield.adjacentMines(x, y));
-
                     Playfield.FFuncover(x, y, new bool[Playfield.w, Playfield.h]);
-
                 }
             }
         }
