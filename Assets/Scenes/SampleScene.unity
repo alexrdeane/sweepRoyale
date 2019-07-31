@@ -511,7 +511,6 @@ MonoBehaviour:
   tilePrefab: {fileID: 3805264173515741065, guid: 22591a7aff34ec544a8934977247130a,
     type: 3}
   spacing: 1
-  minesAmount: 10
 --- !u!4 &1080146015
 Transform:
   m_ObjectHideFlags: 0

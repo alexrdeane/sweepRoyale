@@ -6,6 +6,7 @@ public class Tile : MonoBehaviour
 {
     //position of tile
     public int x, y;
+    public static int mineFlagged;
     //boolean for mine
     public bool mine, tileFlagged;
     public Sprite[] defaultTiles;
@@ -15,10 +16,6 @@ public class Tile : MonoBehaviour
     public Sprite[] mineTextures;
     //box collider 2D of the object
     public new BoxCollider2D collider;
-    void Awake()
-    {
-
-    }
 
     void Start()
     {
@@ -69,6 +66,10 @@ public class Tile : MonoBehaviour
     {
         GetComponent<SpriteRenderer>().sprite = defaultTiles[1];
         this.tileFlagged = true;
+        if (mine)
+        {
+            mineFlagged += 1;
+        }
     }
     public void flagTileInactive()
     {
@@ -126,6 +127,10 @@ public class Tile : MonoBehaviour
                     int y = (int)transform.position.y;
                     loadTexture(Grid.adjacentMines(x, y));
                     Grid.FFuncover(x, y, new bool[Grid.w, Grid.h]);
+                    if (Grid.isFinished())
+                    {
+                        print("ye");
+                    }
                 }
             }
         }

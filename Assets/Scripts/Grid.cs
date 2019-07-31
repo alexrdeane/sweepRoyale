@@ -8,9 +8,11 @@ public class Grid : Tile
     public static int w = 10, h = 13;
     public int spacing = 1;
     private Tile[,] tiles;
-    public int minesAmount = 10;
+    public static int minesAmount = 15;
     public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
+    public static bool gameWonBool;
+    public static int minesFlagged = Tile.mineFlagged;
 
     Tile SpawnTile(Vector3 pos)
     {
@@ -103,6 +105,22 @@ public class Grid : Tile
         gameEndedBool = true;
     }
     #endregion
+
+    public static bool isFinished()
+    {
+        foreach (Tile elem in elements)
+        {
+            if (elem.isCovered() && !elem.mine)
+            {
+                if (minesFlagged == minesAmount)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     // if a large cluster of tiles is empty it will remove them all
     #region uncover empty mines
     public static void FFuncover(int x, int y, bool[,] visited)
