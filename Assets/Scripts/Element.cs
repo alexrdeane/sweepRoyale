@@ -116,6 +116,7 @@ public class Element : MonoBehaviour
             //if the tile is not flagged
             if (!tileFlagged)
             {
+                //mine = Random.value > .5f;
                 //if the tile is a mine
                 if (mine)
                 {
