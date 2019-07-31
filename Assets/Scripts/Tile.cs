@@ -2,39 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Element : MonoBehaviour
+public class Tile : MonoBehaviour
 {
-    //variables
-    #region variables
-    //if the tile is a mine or flagged
+    //position of tile
+    public int x, y;
+    //boolean for mine
     public bool mine, tileFlagged;
-    //array of default tiles (default or revealed)
     public Sprite[] defaultTiles;
     //array of empty and bombsNear(1-8)
     public Sprite[] emptyTextures;
     //array of mine textures (revealed or exploded)
-    public Sprite[] mineTextures; 
+    public Sprite[] mineTextures;
     //box collider 2D of the object
-    public BoxCollider2D collider;
-    #endregion
-    //start function / sets mine, gets colliders and location of tiles / sets the GameObject this is attached to as a tile
-    #region start
+    public new BoxCollider2D collider;
+    void Awake()
+    {
+
+    }
+
     void Start()
     {
-        //randomly decide if it's a mine or not
-        mine = Random.value < 0.15;
-        //gets colliders from tiles
         collider = GetComponent<BoxCollider2D>();
-        //register in grid
-        int x = (int)transform.position.x;
-        int y = (int)transform.position.y;
-        //sets the GameObject this is attached to as a tile
-        Playfield.elements[x, y] = this;
+        Grid.elements[x, y] = this;
+
     }
-    #endregion
-    //these functions are used to swap sprites and deactivate colliders when needed
     #region default texture swap functions
-    //boolean used to check if the tile is covered (if it has not been revealed)
     public bool isCovered()
     {
         return GetComponent<SpriteRenderer>().sprite.texture.name == "defaultTile";
@@ -121,9 +113,9 @@ public class Element : MonoBehaviour
                 if (mine)
                 {
                     //activate the game ended void in the Playfield script
-                    Playfield.gameEnded();
+                    Grid.gameEnded();
                     //uncovers all mines
-                    Playfield.uncoverMines();
+                    Grid.uncoverMines();
                     //use the bombExplodedTile texture to signify which bomb the player touched (optional)
                     this.loadExploded();
                 }
@@ -132,8 +124,8 @@ public class Element : MonoBehaviour
                 {
                     int x = (int)transform.position.x;
                     int y = (int)transform.position.y;
-                    loadTexture(Playfield.adjacentMines(x, y));
-                    Playfield.FFuncover(x, y, new bool[Playfield.w, Playfield.h]);
+                    loadTexture(Grid.adjacentMines(x, y));
+                    Grid.FFuncover(x, y, new bool[Grid.w, Grid.h]);
                 }
             }
         }
@@ -141,3 +133,4 @@ public class Element : MonoBehaviour
     }
     #endregion
 }
+

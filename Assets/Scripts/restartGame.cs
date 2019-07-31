@@ -10,13 +10,13 @@ public class RestartGame : MonoBehaviour
     //emoji with glasses
     public Sprite[] gameEmoji;
     //bool if game is still going
-    public bool gameEnded = Playfield.gameEndedBool;
+    public bool gameEnded = Grid.gameEndedBool;
     #endregion
     //gameEndedBool changes sprite based on if the game is still going
     #region update
     void Update()
     {
-        if (Playfield.gameEndedBool == true)
+        if (Grid.gameEndedBool == true)
         {
             GetComponent<SpriteRenderer>().sprite = gameEmoji[1];
         }
@@ -31,7 +31,7 @@ public class RestartGame : MonoBehaviour
     void OnMouseUpAsButton()
     {
         SceneManager.LoadScene(0);
-        Playfield.gameEndedBool = false;
+        Grid.gameEndedBool = false;
     }
     #endregion
 }

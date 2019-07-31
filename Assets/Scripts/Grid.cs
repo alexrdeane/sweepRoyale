@@ -1,22 +1,24 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Playfield : Element
+public class Grid : Tile
 {
-    //variables
-    #region variables
-    //width and height of playfield
-    public static int w = 10;
-    public static int h = 13;
-    //the grid itself
-    public static Element[,] elements = new Element[w, h];
-    //boolean if the game is over
+    public GameObject tilePrefab;
+    public static int w = 10, h = 13;
+    public int spacing = 1;
+    private Tile[,] tiles;
+    public int minesAmount = 10;
+    public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
-    #endregion
-    //check for mines if element is pressed / checks around the mine for more and returns the amount within the area / if the element is a mine reveal
-    #region mine functions
+
+    Tile SpawnTile(Vector3 pos)
+    {
+        GameObject clone = Instantiate(tilePrefab);
+        clone.transform.position = pos;
+        return clone.GetComponent<Tile>();
+    }
+
     public static bool mineAt(int x, int y)
     {
         //coordinates in range then check for mine
@@ -27,7 +29,46 @@ public class Playfield : Element
         return false;
     }
 
-    //counts adjacent mines for an element
+    void GenerateTiles()
+    {
+        tiles = new Tile[w, h];
+        for (int x = 0; x < w; x++)
+        {
+            for (int y = 0; y < h; y++)
+            {
+                Vector2 pos = new Vector2(x, y);
+
+                pos *= spacing;
+                Tile tile = SpawnTile(pos);
+                tile.transform.SetParent(transform);
+                tile.x = x;
+                tile.y = y;
+                tiles[x, y] = tile;
+            }
+        }
+    }
+    #region mine functions
+    void GenerateMines()
+    {
+        for (int i = 0; i < minesAmount; i++)
+        {
+            Tile t = tiles[Random.Range(0, w), Random.Range(0, h)];
+            if (t.mine)
+            {
+                i -= 1;
+            }
+            else
+            {
+                t.mine = true;
+            }
+        }
+    }
+    void Start()
+    {
+        GenerateTiles();
+        GenerateMines();
+    }
+
     public static int adjacentMines(int x, int y)
     {
         int count = 0;
@@ -45,7 +86,7 @@ public class Playfield : Element
     //uncovers all mines
     public static void uncoverMines()
     {
-        foreach (Element elem in elements)
+        foreach (Tile elem in elements)
         {
             if (elem.mine) elem.loadTexture(0);
         }
@@ -55,7 +96,7 @@ public class Playfield : Element
     #region game over
     public static void gameEnded()
     {
-        foreach (Element elem in elements)
+        foreach (Tile elem in elements)
         {
             elem.collider.enabled = false;
         }
@@ -89,7 +130,10 @@ public class Playfield : Element
             FFuncover(x + 1, y, visited);
             FFuncover(x, y - 1, visited);
             FFuncover(x, y + 1, visited);
-
+            FFuncover(x + 1, y + 1, visited);
+            FFuncover(x + 1, y - 1, visited);
+            FFuncover(x - 1, y - 1, visited);
+            FFuncover(x - 1, y + 1, visited);
         }
     }
     #endregion
