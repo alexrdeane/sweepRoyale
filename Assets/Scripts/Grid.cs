@@ -12,7 +12,6 @@ public class Grid : Tile
     public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
     public static bool gameWonBool;
-    public static int minesFlagged = Tile.mineFlagged;
 
     Tile SpawnTile(Vector3 pos)
     {
@@ -112,13 +111,11 @@ public class Grid : Tile
         {
             if (elem.isCovered() && !elem.mine)
             {
-                if (minesFlagged == minesAmount)
-                {
-                    return true;
-                }
+
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
     // if a large cluster of tiles is empty it will remove them all

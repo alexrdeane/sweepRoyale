@@ -6,7 +6,6 @@ public class Tile : MonoBehaviour
 {
     //position of tile
     public int x, y;
-    public static int mineFlagged;
     //boolean for mine
     public bool mine, tileFlagged;
     public Sprite[] defaultTiles;
@@ -66,10 +65,6 @@ public class Tile : MonoBehaviour
     {
         GetComponent<SpriteRenderer>().sprite = defaultTiles[1];
         this.tileFlagged = true;
-        if (mine)
-        {
-            mineFlagged += 1;
-        }
     }
     public void flagTileInactive()
     {
