@@ -326,8 +326,8 @@ GameObject:
   m_Component:
   - component: {fileID: 524564070}
   - component: {fileID: 524564069}
-  - component: {fileID: 524564071}
   - component: {fileID: 524564072}
+  - component: {fileID: 524564071}
   m_Layer: 0
   m_Name: restartGameButton
   m_TagString: Untagged

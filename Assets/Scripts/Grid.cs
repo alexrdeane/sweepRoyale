@@ -111,8 +111,8 @@ public class Grid : Tile
         {
             if (elem.isCovered() && !elem.mine)
             {
-                print("false");
-                return false;
+                //print("true");
+                //return true;
             }
         }
         print("true");
