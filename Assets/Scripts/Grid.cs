@@ -12,8 +12,8 @@ public class Grid : MonoBehaviour
     public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
     public static bool gameWonBool;
-    public static int safeTile;
-    public static int tileAmount;
+    public static int safeTile, currentSafeTile;
+    public static int tileAmount, currentTileAmount;
     public static bool isFinished = false;
     public static int count;
 
@@ -53,8 +53,7 @@ public class Grid : MonoBehaviour
             }
         }
         tileAmount = safeTile;
-        print(tileAmount);
-        safeTile -= minesAmount;
+        currentTileAmount = safeTile;
     }
     #region mine functions
     void GenerateMines()
@@ -162,17 +161,21 @@ public class Grid : MonoBehaviour
             FFuncover(x + 1, y - 1, visited);
             FFuncover(x - 1, y - 1, visited);
             FFuncover(x - 1, y + 1, visited);
-            safeTile--;
+            //safeTile--;
         }
     }
     #endregion
 
     public static void SafeTileWipe()
     {
-        safeTile = tileAmount - (count + minesAmount);
-        count = 1;
-        tileAmount = 
+        safeTile = currentTileAmount - (count + minesAmount);
+        currentSafeTile = safeTile;
+        safeTile += minesAmount;
+        currentSafeTile = safeTile - currentSafeTile;
+        currentSafeTile -= minesAmount;
+        count = 0;
         minesAmount = 0;
-        print(safeTile);
+        print("SAFETILE " + safeTile);
+        print("CURRENTSAFETILE " + currentSafeTile);
     }
 }

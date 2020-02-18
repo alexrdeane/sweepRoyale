@@ -73,6 +73,8 @@ public class Tile : MonoBehaviour
     public void flagTileActive()
     {
         isFlagged();
+        Grid.count++;
+        print("GRID " + Grid.count);
         GetComponent<SpriteRenderer>().sprite = defaultTiles[1];
         this.tileFlagged = true;
     }
@@ -140,6 +142,7 @@ public class Tile : MonoBehaviour
                     loadTexture(Grid.AdjacentMines(x, y));
                     Grid.FFuncover(x, y, new bool[Grid.w, Grid.h]);
                     Grid.SafeTileWipe();
+                    Grid.count--;
                     if (Grid.isFinished == true)
                     {
                         print("win");
