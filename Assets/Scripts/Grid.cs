@@ -5,11 +5,11 @@ using UnityEngine;
 public class Grid : MonoBehaviour
 {
     public GameObject tilePrefab;
-    public static int w = 10, h = 13;
+    public static int gridW = 10, gridH = 13;
     public int spacing = 1;
     private Tile[,] tiles;
     public static int minesAmount = 5;
-    public static Tile[,] elements = new Tile[w, h];
+    public static Tile[,] elements = new Tile[gridW, gridH];
     public static bool gameEndedBool;
     public static bool gameWonBool;
     public static int safeTile, currentSafeTile;
@@ -27,7 +27,7 @@ public class Grid : MonoBehaviour
     public static bool MineAt(int x, int y)
     {
         //coordinates in range then check for mine
-        if (x >= 0 && y >= 0 && x < w && y < h)
+        if (x >= 0 && y >= 0 && x < gridW && y < gridH)
         {
             return elements[x, y].mine;
         }
@@ -36,10 +36,10 @@ public class Grid : MonoBehaviour
 
     void GenerateTiles()
     {
-        tiles = new Tile[w, h];
-        for (int x = 0; x < w; x++)
+        tiles = new Tile[gridW, gridH];
+        for (int x = 0; x < gridW; x++)
         {
-            for (int y = 0; y < h; y++)
+            for (int y = 0; y < gridH; y++)
             {
                 Vector2 pos = new Vector2(x, y);
 
@@ -49,18 +49,18 @@ public class Grid : MonoBehaviour
                 tile.x = x;
                 tile.y = y;
                 tiles[x, y] = tile;
-                safeTile++;
+                //    safeTile++;
             }
         }
-        tileAmount = safeTile;
-        currentTileAmount = safeTile;
+        // tileAmount = safeTile;
+        //  currentTileAmount = safeTile;
     }
     #region mine functions
     void GenerateMines()
     {
         for (int i = 0; i < minesAmount; i++)
         {
-            Tile t = tiles[Random.Range(0, w), Random.Range(0, h)];
+            Tile t = tiles[Random.Range(0, gridW), Random.Range(0, gridH)];
             if (t.mine)
             {
                 i -= 1;
@@ -116,23 +116,12 @@ public class Grid : MonoBehaviour
     }
     #endregion
 
-    public void IsFinished()
-    {
-        foreach (Tile elem in elements)
-        {
-            if ((elem.mine && elem.tileCovered == true) || (elem.mine && elem.tileFlagged == true))
-            {
-                isFinished = true;
-            }
-        }
-    }
-
     // if a large cluster of tiles is empty it will remove them all
     #region uncover empty mines
     public static void FFuncover(int x, int y, bool[,] visited)
     {
         //coordinates in range
-        if (x >= 0 && y >= 0 && x < w && y < h)
+        if (x >= 0 && y >= 0 && x < gridW && y < gridH)
         {
             //visited already?
             if (visited[x, y])
@@ -150,8 +139,8 @@ public class Grid : MonoBehaviour
 
             //set visited flag
             visited[x, y] = true;
-            count++;
-            print("COUNT " + count);
+            //count++;
+            //print("COUNT " + count);
             //recursion
             FFuncover(x - 1, y, visited);
             FFuncover(x + 1, y, visited);
@@ -168,14 +157,26 @@ public class Grid : MonoBehaviour
 
     public static void SafeTileWipe()
     {
-        safeTile = currentTileAmount - (count + minesAmount);
-        currentSafeTile = safeTile;
-        safeTile += minesAmount;
-        currentSafeTile = safeTile - currentSafeTile;
-        currentSafeTile -= minesAmount;
-        count = 0;
-        minesAmount = 0;
-        print("SAFETILE " + safeTile);
-        print("CURRENTSAFETILE " + currentSafeTile);
+        //safeTile = currentTileAmount - (count + minesAmount);
+        //currentSafeTile = safeTile;
+        // safeTile += minesAmount;
+        //  currentSafeTile = safeTile - currentSafeTile;
+        // currentSafeTile -= minesAmount;
+        //  count = 0;
+        //  minesAmount = 0;
+        //  print("SAFETILE " + safeTile);
+        //  print("CURRENTSAFETILE " + currentSafeTile);
+    }
+    public static bool IsFinished()
+    {
+
+        foreach (Tile elem in elements)
+        {
+            if (elem.isCovered() || elem.isFlagged() && !elem.mine)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 }

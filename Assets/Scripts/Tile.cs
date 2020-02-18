@@ -73,8 +73,8 @@ public class Tile : MonoBehaviour
     public void flagTileActive()
     {
         isFlagged();
-        Grid.count++;
-        print("GRID " + Grid.count);
+        //    Grid.count++;
+        //   print("GRID " + Grid.count);
         GetComponent<SpriteRenderer>().sprite = defaultTiles[1];
         this.tileFlagged = true;
     }
@@ -140,17 +140,30 @@ public class Tile : MonoBehaviour
                     int x = (int)transform.position.x;
                     int y = (int)transform.position.y;
                     loadTexture(Grid.AdjacentMines(x, y));
-                    Grid.FFuncover(x, y, new bool[Grid.w, Grid.h]);
-                    Grid.SafeTileWipe();
-                    Grid.count--;
-                    if (Grid.isFinished == true)
+                    Grid.FFuncover(x, y, new bool[Grid.gridW, Grid.gridH]);
+                    //   Grid.SafeTileWipe();
+                    //  Grid.count--;
+                    if (IsFinished())
                     {
                         print("win");
                     }
+
                 }
             }
         }
     }
     #endregion
     #endregion
+    public static bool IsFinished()
+    {
+
+        foreach (Tile elem in Grid.elements)
+        {
+            if (elem.isCovered() && !elem.mine)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
 }
