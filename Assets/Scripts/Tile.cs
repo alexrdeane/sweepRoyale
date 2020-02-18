@@ -15,17 +15,23 @@ public class Tile : MonoBehaviour
     public Sprite[] mineTextures;
     //box collider 2D of the object
     public new BoxCollider2D collider;
+    public int tile = Grid.minesAmount;
 
     void Start()
     {
         collider = GetComponent<BoxCollider2D>();
         Grid.elements[x, y] = this;
-
     }
+
     #region default texture swap functions
     public bool isCovered()
     {
         return GetComponent<SpriteRenderer>().sprite.texture.name == "defaultTile";
+    }
+
+    public bool isFlagged()
+    {
+        return GetComponent<SpriteRenderer>().sprite.texture.name == "markedTile";
     }
     //loads a mine texture if its a mine, flagged texture if the tile is flagged or the empty tile textures if empty
     public void loadTexture(int adjacentCount)
@@ -63,6 +69,7 @@ public class Tile : MonoBehaviour
     #region flagging function / unflagging function
     public void flagTileActive()
     {
+        isFlagged();
         GetComponent<SpriteRenderer>().sprite = defaultTiles[1];
         this.tileFlagged = true;
     }
@@ -93,6 +100,15 @@ public class Tile : MonoBehaviour
             {
                 //sets this tile to be flagged
                 flagTileActive();
+                if (mine)
+                {
+                    Grid.bombTile--;
+                    print(Grid.bombTile);
+                }
+                if (Grid.isFinished() && Grid.bombTile <= 0)
+                {
+                    print("win");
+                }
             }
         }
         #endregion
@@ -110,6 +126,7 @@ public class Tile : MonoBehaviour
                 {
                     //activate the game ended void in the Playfield script
                     Grid.gameEnded();
+                    print("lose");
                     //uncovers all mines
                     Grid.uncoverMines();
                     //use the bombExplodedTile texture to signify which bomb the player touched (optional)
@@ -122,15 +139,15 @@ public class Tile : MonoBehaviour
                     int y = (int)transform.position.y;
                     loadTexture(Grid.adjacentMines(x, y));
                     Grid.FFuncover(x, y, new bool[Grid.w, Grid.h]);
-                    if (Grid.isFinished())
+
+                    if (Grid.isFinished() && Grid.bombTile <= 0)
                     {
-                        print("ye");
+                        print("win");
                     }
                 }
             }
         }
-        #endregion
     }
     #endregion
+    #endregion
 }
-

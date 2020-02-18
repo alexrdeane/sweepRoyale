@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Grid : Tile
+public class Grid : MonoBehaviour
 {
     public GameObject tilePrefab;
     public static int w = 10, h = 13;
     public int spacing = 1;
     private Tile[,] tiles;
-    public static int minesAmount = 15;
+    public static int minesAmount = 5;
     public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
     public static bool gameWonBool;
+    public static int bombTile = minesAmount;
 
     Tile SpawnTile(Vector3 pos)
     {
@@ -89,7 +90,10 @@ public class Grid : Tile
     {
         foreach (Tile elem in elements)
         {
-            if (elem.mine) elem.loadTexture(0);
+            if (elem.mine)
+            {
+                elem.loadTexture(0);
+            }
         }
     }
     #endregion
@@ -111,12 +115,9 @@ public class Grid : Tile
         {
             if (elem.isCovered() && !elem.mine)
             {
-                //print("true");
-                //return true;
+                return false;
             }
         }
-        print("true");
-
         return true;
     }
 
@@ -134,6 +135,7 @@ public class Grid : Tile
             }
             //uncover element
             elements[x, y].loadTexture(adjacentMines(x, y));
+            //elements[x, y].uncovered = true;
             //close to a mine? then no more work needed
             if (adjacentMines(x, y) > 0)
             {
