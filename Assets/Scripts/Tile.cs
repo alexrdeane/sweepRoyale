@@ -15,6 +15,7 @@ public class Tile : MonoBehaviour
     public Sprite[] mineTextures;
     //box collider 2D of the object
     public new BoxCollider2D collider;
+    public bool uncovered = false;
 
     void Start()
     {

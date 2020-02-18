@@ -11,9 +11,6 @@ public class Grid : MonoBehaviour
     public static int minesAmount = 5;
     public static Tile[,] elements = new Tile[gridW, gridH];
     public static bool gameEndedBool;
-    public static bool gameWonBool;
-    public static int safeTile, currentSafeTile;
-    public static int tileAmount, currentTileAmount;
     public static bool isFinished = false;
     public static int count;
 
@@ -49,11 +46,8 @@ public class Grid : MonoBehaviour
                 tile.x = x;
                 tile.y = y;
                 tiles[x, y] = tile;
-                //    safeTile++;
             }
         }
-        // tileAmount = safeTile;
-        //  currentTileAmount = safeTile;
     }
     #region mine functions
     void GenerateMines()
@@ -100,6 +94,7 @@ public class Grid : MonoBehaviour
             if (elem.mine)
             {
                 elem.loadTexture(0);
+                elem.uncovered = true;
             }
         }
     }
@@ -130,6 +125,7 @@ public class Grid : MonoBehaviour
             }
             //uncover element
             elements[x, y].loadTexture(AdjacentMines(x, y));
+            elements[x, y].uncovered = true;
 
             //close to a mine? then no more work needed
             if (AdjacentMines(x, y) > 0)
@@ -139,8 +135,6 @@ public class Grid : MonoBehaviour
 
             //set visited flag
             visited[x, y] = true;
-            //count++;
-            //print("COUNT " + count);
             //recursion
             FFuncover(x - 1, y, visited);
             FFuncover(x + 1, y, visited);
@@ -150,29 +144,16 @@ public class Grid : MonoBehaviour
             FFuncover(x + 1, y - 1, visited);
             FFuncover(x - 1, y - 1, visited);
             FFuncover(x - 1, y + 1, visited);
-            //safeTile--;
         }
     }
     #endregion
 
-    public static void SafeTileWipe()
-    {
-        //safeTile = currentTileAmount - (count + minesAmount);
-        //currentSafeTile = safeTile;
-        // safeTile += minesAmount;
-        //  currentSafeTile = safeTile - currentSafeTile;
-        // currentSafeTile -= minesAmount;
-        //  count = 0;
-        //  minesAmount = 0;
-        //  print("SAFETILE " + safeTile);
-        //  print("CURRENTSAFETILE " + currentSafeTile);
-    }
     public static bool IsFinished()
     {
 
         foreach (Tile elem in elements)
         {
-            if (elem.isCovered() || elem.isFlagged() && !elem.mine)
+            if (!elem.uncovered && !elem.mine)
             {
                 return false;
             }
