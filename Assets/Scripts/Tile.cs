@@ -143,7 +143,7 @@ public class Tile : MonoBehaviour
                     Grid.FFuncover(x, y, new bool[Grid.gridW, Grid.gridH]);
                     //   Grid.SafeTileWipe();
                     //  Grid.count--;
-                    if (IsFinished())
+                    if (Grid.IsFinished())
                     {
                         print("win");
                     }
@@ -154,16 +154,4 @@ public class Tile : MonoBehaviour
     }
     #endregion
     #endregion
-    public static bool IsFinished()
-    {
-
-        foreach (Tile elem in Grid.elements)
-        {
-            if (elem.isCovered() && !elem.mine)
-            {
-                return false;
-            }
-        }
-        return true;
-    }
 }
