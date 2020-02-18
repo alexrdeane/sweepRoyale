@@ -7,7 +7,7 @@ public class Tile : MonoBehaviour
     //position of tile
     public int x, y;
     //boolean for mine
-    public bool mine, tileFlagged;
+    public bool mine, tileFlagged, tileCovered;
     public Sprite[] defaultTiles;
     //array of empty and bombsNear(1-8)
     public Sprite[] emptyTextures;
@@ -15,10 +15,10 @@ public class Tile : MonoBehaviour
     public Sprite[] mineTextures;
     //box collider 2D of the object
     public new BoxCollider2D collider;
-    public int tile = Grid.minesAmount;
 
     void Start()
     {
+        isCovered();
         collider = GetComponent<BoxCollider2D>();
         Grid.elements[x, y] = this;
     }
@@ -26,11 +26,13 @@ public class Tile : MonoBehaviour
     #region default texture swap functions
     public bool isCovered()
     {
+        this.tileCovered = true;
         return GetComponent<SpriteRenderer>().sprite.texture.name == "defaultTile";
     }
 
     public bool isFlagged()
     {
+        this.tileFlagged = true;
         return GetComponent<SpriteRenderer>().sprite.texture.name == "markedTile";
     }
     //loads a mine texture if its a mine, flagged texture if the tile is flagged or the empty tile textures if empty
@@ -53,6 +55,7 @@ public class Tile : MonoBehaviour
             GetComponent<SpriteRenderer>().sprite = emptyTextures[adjacentCount];
             //disables the collider of empty tiles to stop players from clicking the tile again
             this.collider.enabled = false;
+            this.tileCovered = false;
         }
     }
 
@@ -84,6 +87,7 @@ public class Tile : MonoBehaviour
     #region OnMouseUpAsButton
     void OnMouseUpAsButton()
     {
+        print(Grid.isFinished);
         // if the flag button is active any tile the player presses will become a flagged tile, if a flagged tile is pressed whilst the flag button it will reset the tile back to being unflagged
         #region flagging and unflagging
         //if the flagTile bool is active
@@ -94,18 +98,14 @@ public class Tile : MonoBehaviour
             {
                 //resets the flagged tile to be a normal covered tile
                 flagTileInactive();
+
             }
             //if the tile is not flagged
             else
             {
                 //sets this tile to be flagged
                 flagTileActive();
-                if (mine)
-                {
-                    Grid.bombTile--;
-                    print(Grid.bombTile);
-                }
-                if (Grid.isFinished() && Grid.bombTile <= 0)
+                if (Grid.isFinished == true)
                 {
                     print("win");
                 }
@@ -125,10 +125,10 @@ public class Tile : MonoBehaviour
                 if (mine)
                 {
                     //activate the game ended void in the Playfield script
-                    Grid.gameEnded();
+                    Grid.GameEnded();
                     print("lose");
                     //uncovers all mines
-                    Grid.uncoverMines();
+                    Grid.UncoverMines();
                     //use the bombExplodedTile texture to signify which bomb the player touched (optional)
                     this.loadExploded();
                 }
@@ -137,10 +137,10 @@ public class Tile : MonoBehaviour
                 {
                     int x = (int)transform.position.x;
                     int y = (int)transform.position.y;
-                    loadTexture(Grid.adjacentMines(x, y));
+                    loadTexture(Grid.AdjacentMines(x, y));
                     Grid.FFuncover(x, y, new bool[Grid.w, Grid.h]);
-
-                    if (Grid.isFinished() && Grid.bombTile <= 0)
+                    Grid.SafeTileWipe();
+                    if (Grid.isFinished == true)
                     {
                         print("win");
                     }

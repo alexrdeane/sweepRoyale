@@ -12,7 +12,10 @@ public class Grid : MonoBehaviour
     public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
     public static bool gameWonBool;
-    public static int bombTile = minesAmount;
+    public static int safeTile;
+    public static int tileAmount;
+    public static bool isFinished = false;
+    public static int count;
 
     Tile SpawnTile(Vector3 pos)
     {
@@ -21,7 +24,7 @@ public class Grid : MonoBehaviour
         return clone.GetComponent<Tile>();
     }
 
-    public static bool mineAt(int x, int y)
+    public static bool MineAt(int x, int y)
     {
         //coordinates in range then check for mine
         if (x >= 0 && y >= 0 && x < w && y < h)
@@ -46,8 +49,12 @@ public class Grid : MonoBehaviour
                 tile.x = x;
                 tile.y = y;
                 tiles[x, y] = tile;
+                safeTile++;
             }
         }
+        tileAmount = safeTile;
+        print(tileAmount);
+        safeTile -= minesAmount;
     }
     #region mine functions
     void GenerateMines()
@@ -69,24 +76,25 @@ public class Grid : MonoBehaviour
     {
         GenerateTiles();
         GenerateMines();
+        print(safeTile);
     }
 
-    public static int adjacentMines(int x, int y)
+    public static int AdjacentMines(int x, int y)
     {
         int count = 0;
 
-        if (mineAt(x, y + 1)) ++count;//top
-        if (mineAt(x + 1, y + 1)) ++count;//top-right
-        if (mineAt(x + 1, y)) ++count;//right
-        if (mineAt(x + 1, y - 1)) ++count;//bottom-right
-        if (mineAt(x, y - 1)) ++count;//bottom
-        if (mineAt(x - 1, y - 1)) ++count;//bottom-left
-        if (mineAt(x - 1, y)) ++count;//left
-        if (mineAt(x - 1, y + 1)) ++count;//top-left
+        if (MineAt(x, y + 1)) ++count;//top
+        if (MineAt(x + 1, y + 1)) ++count;//top-right
+        if (MineAt(x + 1, y)) ++count;//right
+        if (MineAt(x + 1, y - 1)) ++count;//bottom-right
+        if (MineAt(x, y - 1)) ++count;//bottom
+        if (MineAt(x - 1, y - 1)) ++count;//bottom-left
+        if (MineAt(x - 1, y)) ++count;//left
+        if (MineAt(x - 1, y + 1)) ++count;//top-left
         return count;
     }
     //uncovers all mines
-    public static void uncoverMines()
+    public static void UncoverMines()
     {
         foreach (Tile elem in elements)
         {
@@ -99,7 +107,7 @@ public class Grid : MonoBehaviour
     #endregion
     //removes all the colliders of elements sets gameEndedBool to true
     #region game over
-    public static void gameEnded()
+    public static void GameEnded()
     {
         foreach (Tile elem in elements)
         {
@@ -109,16 +117,15 @@ public class Grid : MonoBehaviour
     }
     #endregion
 
-    public static bool isFinished()
+    public void IsFinished()
     {
         foreach (Tile elem in elements)
         {
-            if (elem.isCovered() && !elem.mine)
+            if ((elem.mine && elem.tileCovered == true) || (elem.mine && elem.tileFlagged == true))
             {
-                return false;
+                isFinished = true;
             }
         }
-        return true;
     }
 
     // if a large cluster of tiles is empty it will remove them all
@@ -134,16 +141,18 @@ public class Grid : MonoBehaviour
                 return;
             }
             //uncover element
-            elements[x, y].loadTexture(adjacentMines(x, y));
-            //elements[x, y].uncovered = true;
+            elements[x, y].loadTexture(AdjacentMines(x, y));
+
             //close to a mine? then no more work needed
-            if (adjacentMines(x, y) > 0)
+            if (AdjacentMines(x, y) > 0)
             {
                 return;
             }
 
             //set visited flag
             visited[x, y] = true;
+            count++;
+            print("COUNT " + count);
             //recursion
             FFuncover(x - 1, y, visited);
             FFuncover(x + 1, y, visited);
@@ -153,7 +162,17 @@ public class Grid : MonoBehaviour
             FFuncover(x + 1, y - 1, visited);
             FFuncover(x - 1, y - 1, visited);
             FFuncover(x - 1, y + 1, visited);
+            safeTile--;
         }
     }
     #endregion
+
+    public static void SafeTileWipe()
+    {
+        safeTile = tileAmount - (count + minesAmount);
+        count = 1;
+        tileAmount = 
+        minesAmount = 0;
+        print(safeTile);
+    }
 }
