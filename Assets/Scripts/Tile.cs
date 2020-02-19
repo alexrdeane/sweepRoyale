@@ -4,148 +4,112 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    //position of tile
     public int x, y;
-    //boolean for mine
-    public bool mine, tileFlagged, tileCovered;
+    public static float r, g, b;
+    public bool mine, uncovered = false, flagged = false;
     public Sprite[] defaultTiles;
-    //array of empty and bombsNear(1-8)
     public Sprite[] emptyTextures;
-    //array of mine textures (revealed or exploded)
     public Sprite[] mineTextures;
-    //box collider 2D of the object
     public new BoxCollider2D collider;
-    public bool uncovered = false;
+    public Color lerpedOver = Color.white;
+    public Color lerpedOff = new Color(r, g, b);
+
 
     void Start()
     {
-        isCovered();
         collider = GetComponent<BoxCollider2D>();
         Grid.elements[x, y] = this;
     }
 
-    #region default texture swap functions
-    public bool isCovered()
-    {
-        this.tileCovered = true;
-        return GetComponent<SpriteRenderer>().sprite.texture.name == "defaultTile";
-    }
-
-    public bool isFlagged()
-    {
-        this.tileFlagged = true;
-        return GetComponent<SpriteRenderer>().sprite.texture.name == "markedTile";
-    }
-    //loads a mine texture if its a mine, flagged texture if the tile is flagged or the empty tile textures if empty
-    public void loadTexture(int adjacentCount)
+    public void LoadTexture(int adjacentCount)
     {
         if (mine)
         {
-            //sets the texture to the mine texture
             GetComponent<SpriteRenderer>().sprite = mineTextures[0];
         }
-        else if (tileFlagged)
+        else if (flagged)
         {
-            //sets the texture and bool to flagged
-            flagTileActive();
+            FlagTileActive();
         }
-        //if not a mine or flagged
         else
         {
-            //sets the texture to empty or bombsNear(1-8)
             GetComponent<SpriteRenderer>().sprite = emptyTextures[adjacentCount];
-            //disables the collider of empty tiles to stop players from clicking the tile again
-            this.collider.enabled = false;
-            this.tileCovered = false;
+            collider.enabled = false;
         }
     }
 
-    //sets the texture to the exploded bomb to indicate which bomb was pressed at game over
-    public void loadExploded()
+    public void LoadExploded()
     {
         if (mine)
         {
             GetComponent<SpriteRenderer>().sprite = mineTextures[1];
         }
     }
-    #endregion
-    //if these functions are called the tile pressed will become flagged or unflagged depending on which is referenced
-    #region flagging function / unflagging function
-    public void flagTileActive()
+
+    public void FlagTileActive()
     {
-        isFlagged();
-        //    Grid.count++;
-        //   print("GRID " + Grid.count);
         GetComponent<SpriteRenderer>().sprite = defaultTiles[1];
-        this.tileFlagged = true;
+        flagged = true;
     }
-    public void flagTileInactive()
+    public void FlagTileInactive()
     {
-        isCovered();
         GetComponent<SpriteRenderer>().sprite = defaultTiles[0];
-        this.tileFlagged = false;
+        flagged = false;
     }
-    #endregion
-    //mouse input and touch input accessible
-    #region OnMouseUpAsButton
+
     void OnMouseOver()
     {
+        GetComponent<SpriteRenderer>().color = Color.Lerp(lerpedOff, lerpedOver, 0f);
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Left Clicked");
-            //if the tile is not flagged
-            if (!tileFlagged)
+            if (!flagged)
             {
-                //mine = Random.value > .5f;
-                //if the tile is a mine
                 if (mine)
                 {
-                    //activate the game ended void in the Playfield script
-                    Grid.GameEnded();
                     print("lose");
-                    //uncovers all mines
                     Grid.UncoverMines();
-                    //use the bombExplodedTile texture to signify which bomb the player touched (optional)
-                    this.loadExploded();
+                    LoadExploded();
+                    Grid.GameEnded();
                 }
-                //it's not a mine
                 else
                 {
                     int x = (int)transform.position.x;
                     int y = (int)transform.position.y;
-                    loadTexture(Grid.AdjacentMines(x, y));
-                    Grid.FFuncover(x, y, new bool[Grid.gridW, Grid.gridH]);
-                    //   Grid.SafeTileWipe();
-                    //  Grid.count--;
-                    if (Grid.IsFinished())
+                    LoadTexture(Grid.AdjacentMines(x, y));
+                    Grid.FFuncover(x, y, new bool[Grid.w, Grid.h]);
+                    if (Grid.IsFinishedNoSafe())
                     {
-                        print("win");
+                        print("winner no safe");
+                        Grid.GameEnded();
                     }
-
                 }
             }
         }
         else if (Input.GetMouseButtonDown(1))
         {
-            Debug.Log("Right Clicked");
-            //if this tile is flagged
-            if (this.tileFlagged == true)
+            if (flagged == true)
             {
-                //resets the flagged tile to be a normal covered tile
-                flagTileInactive();
-
+                FlagTileInactive();
+                Grid.flagAmount++;
             }
-            //if the tile is not flagged
             else
             {
-                //sets this tile to be flagged
-                flagTileActive();
-                if (Grid.isFinished == true)
+                if (Grid.flagAmount >= 1)
                 {
-                    print("win");
+                    FlagTileActive();
+                    Grid.flagAmount--;
                 }
             }
         }
+        else if (Grid.IsFinishedBombsFlagged())
+        {
+            print("winner bombs flagged");
+            Grid.GameEnded();
+        }
     }
-    #endregion
+
+    public void OnMouseExit()
+    {
+        GetComponent<SpriteRenderer>().color = Color.Lerp(lerpedOver, lerpedOff, 0f);
+    }
 }
