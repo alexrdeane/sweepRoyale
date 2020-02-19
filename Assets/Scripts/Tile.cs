@@ -88,38 +88,11 @@ public class Tile : MonoBehaviour
     #endregion
     //mouse input and touch input accessible
     #region OnMouseUpAsButton
-    void OnMouseUpAsButton()
+    void OnMouseOver()
     {
-        print(Grid.isFinished);
-        // if the flag button is active any tile the player presses will become a flagged tile, if a flagged tile is pressed whilst the flag button it will reset the tile back to being unflagged
-        #region flagging and unflagging
-        //if the flagTile bool is active
-        if (FlagButton.flagTile == true)
+        if (Input.GetMouseButtonDown(0))
         {
-            //if this tile is flagged
-            if (this.tileFlagged == true)
-            {
-                //resets the flagged tile to be a normal covered tile
-                flagTileInactive();
-
-            }
-            //if the tile is not flagged
-            else
-            {
-                //sets this tile to be flagged
-                flagTileActive();
-                if (Grid.isFinished == true)
-                {
-                    print("win");
-                }
-            }
-        }
-        #endregion
-        // if a tile is pressed without the flag button activated it will replace the tiles with the emptyTile sprite or one of the bombsNear(1-8), if the tile is a mine the game will end
-        #region removing tiles / game over
-        //if the flagTile bool is not active
-        else
-        {
+            Debug.Log("Left Clicked");
             //if the tile is not flagged
             if (!tileFlagged)
             {
@@ -152,7 +125,27 @@ public class Tile : MonoBehaviour
                 }
             }
         }
+        else if (Input.GetMouseButtonDown(1))
+        {
+            Debug.Log("Right Clicked");
+            //if this tile is flagged
+            if (this.tileFlagged == true)
+            {
+                //resets the flagged tile to be a normal covered tile
+                flagTileInactive();
+
+            }
+            //if the tile is not flagged
+            else
+            {
+                //sets this tile to be flagged
+                flagTileActive();
+                if (Grid.isFinished == true)
+                {
+                    print("win");
+                }
+            }
+        }
     }
-    #endregion
     #endregion
 }

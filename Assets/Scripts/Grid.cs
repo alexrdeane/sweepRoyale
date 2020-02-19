@@ -69,7 +69,6 @@ public class Grid : MonoBehaviour
     {
         GenerateTiles();
         GenerateMines();
-        print(safeTile);
     }
 
     public static int AdjacentMines(int x, int y)
