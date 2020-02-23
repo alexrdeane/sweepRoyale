@@ -8,7 +8,7 @@ public class Grid : MonoBehaviour
     public static int w = 10, h = 13;
     public int spacing = 1;
     public Tile[,] tiles;
-    public static int minesAmount = 5;
+    public static int minesAmount = 10;
     public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
     public static int flagAmount;
