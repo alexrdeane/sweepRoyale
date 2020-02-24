@@ -73,14 +73,28 @@ public class Grid : MonoBehaviour
     public static int AdjacentMines(int x, int y)
     {
         int count = 0;
-        if (MineAt(x, y + 1)) ++count;//top
-        if (MineAt(x + 1, y + 1)) ++count;//top-right
-        if (MineAt(x + 1, y)) ++count;//right
-        if (MineAt(x + 1, y - 1)) ++count;//bottom-right
-        if (MineAt(x, y - 1)) ++count;//bottom
-        if (MineAt(x - 1, y - 1)) ++count;//bottom-left
-        if (MineAt(x - 1, y)) ++count;//left
-        if (MineAt(x - 1, y + 1)) ++count;//top-left
+        if (GameManager.gamemode == "Default")
+        {
+            if (MineAt(x, y + 1)) ++count;//top
+            if (MineAt(x + 1, y + 1)) ++count;//top-right
+            if (MineAt(x + 1, y)) ++count;//right
+            if (MineAt(x + 1, y - 1)) ++count;//bottom-right
+            if (MineAt(x, y - 1)) ++count;//bottom
+            if (MineAt(x - 1, y - 1)) ++count;//bottom-left
+            if (MineAt(x - 1, y)) ++count;//left
+            if (MineAt(x - 1, y + 1)) ++count;//top-left
+        }
+        else if (GameManager.gamemode == "Colour")
+        {
+            if (MineAt(x, y + 1)) ++count;//top
+            if (MineAt(x + 1, y + 1)) ++count;//top-right
+            if (MineAt(x + 1, y)) ++count;//right
+            if (MineAt(x + 1, y - 1)) ++count;//bottom-right
+            if (MineAt(x, y - 1)) ++count;//bottom
+            if (MineAt(x - 1, y - 1)) ++count;//bottom-left
+            if (MineAt(x - 1, y)) ++count;//left
+            if (MineAt(x - 1, y + 1)) ++count;//top-left
+        }
         return count;
     }
     public static void UncoverMines()
@@ -123,16 +137,26 @@ public class Grid : MonoBehaviour
             visited[x, y] = true;
             if (GameManager.gamemode == "Default")
             {
-
+                FFuncover(x - 1, y, visited);
+                FFuncover(x + 1, y, visited);
+                FFuncover(x, y - 1, visited);
+                FFuncover(x, y + 1, visited);
+                FFuncover(x + 1, y + 1, visited);
+                FFuncover(x + 1, y - 1, visited);
+                FFuncover(x - 1, y - 1, visited);
+                FFuncover(x - 1, y + 1, visited);
             }
-            FFuncover(x - 1, y, visited);
-            FFuncover(x + 1, y, visited);
-            FFuncover(x, y - 1, visited);
-            FFuncover(x, y + 1, visited);
-            FFuncover(x + 1, y + 1, visited);
-            FFuncover(x + 1, y - 1, visited);
-            FFuncover(x - 1, y - 1, visited);
-            FFuncover(x - 1, y + 1, visited);
+            else if (GameManager.gamemode == "Colour")
+            {
+                FFuncover(x - 1, y, visited);
+                FFuncover(x + 1, y, visited);
+                FFuncover(x, y - 1, visited);
+                FFuncover(x, y + 1, visited);
+                FFuncover(x + 1, y + 1, visited);
+                FFuncover(x + 1, y - 1, visited);
+                FFuncover(x - 1, y - 1, visited);
+                FFuncover(x - 1, y + 1, visited);
+            }
         }
     }
 

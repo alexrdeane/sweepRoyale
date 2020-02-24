@@ -4213,7 +4213,3 @@ MonoBehaviour:
   gamemodeOptionRight: {fileID: 1544905389}
   beginGameButton: {fileID: 1704999495}
   backToMenuButton: {fileID: 705255687}
-  gamemode: 0
-  gamemodeInt: 0
-  mineAmounts: 0a0000000f00000014000000190000001e00000023000000280000002d00000032000000
-  mineAmountInt: 0

@@ -40,22 +40,6 @@ public class Tile : MonoBehaviour
                 collider.enabled = false;
             }
         }
-        else if (GameManager.gamemode == "Diagonals")
-        {
-            if (mine)
-            {
-                GetComponent<SpriteRenderer>().sprite = mineTextures[0];
-            }
-            else if (flagged)
-            {
-                FlagTileActive();
-            }
-            else
-            {
-                GetComponent<SpriteRenderer>().sprite = emptyTextures[adjacentCount];
-                collider.enabled = false;
-            }
-        }
         else if (GameManager.gamemode == "Colour")
         {
             if (mine)
@@ -103,9 +87,9 @@ public class Tile : MonoBehaviour
                 if (mine)
                 {
                     print("lose");
+                    Grid.GameEnded();
                     Grid.UncoverMines();
                     LoadExploded();
-                    Grid.GameEnded();
                 }
                 else
                 {

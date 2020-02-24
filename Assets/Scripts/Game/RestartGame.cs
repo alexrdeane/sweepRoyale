@@ -9,7 +9,7 @@ public class RestartGame
 
     public static void GameRestart()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         Grid.gameEndedBool = false;
     }
 }

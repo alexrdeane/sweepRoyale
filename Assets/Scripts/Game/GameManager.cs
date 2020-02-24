@@ -27,7 +27,6 @@ public class GameManager : MonoBehaviour
     public enum Gamemodes
     {
         Default,
-        Diagonals,
         Colour,
         EndOfEnum
     }
