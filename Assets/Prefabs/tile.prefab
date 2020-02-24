@@ -129,6 +129,16 @@ MonoBehaviour:
   defaultTiles:
   - {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300002, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  colourTiles:
+  - {fileID: -3759806755871307005, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: -6026125257520676860, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 2611765172329159392, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: -894884633875082799, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 5730212717366585059, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 275727824740549542, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: -3082286330361802549, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: -3476426377522975018, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 3397111610976742256, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
   emptyTextures:
   - {fileID: 21300082, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
   - {fileID: 21300020, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}

@@ -8,6 +8,7 @@ public class Tile : MonoBehaviour
     public static float r, g, b;
     public bool mine, uncovered = false, flagged = false;
     public Sprite[] defaultTiles;
+    public Sprite[] colourTiles;
     public Sprite[] emptyTextures;
     public Sprite[] mineTextures;
     public new BoxCollider2D collider;
@@ -23,18 +24,53 @@ public class Tile : MonoBehaviour
 
     public void LoadTexture(int adjacentCount)
     {
-        if (mine)
+        if (GameManager.gamemode == "Default")
         {
-            GetComponent<SpriteRenderer>().sprite = mineTextures[0];
+            if (mine)
+            {
+                GetComponent<SpriteRenderer>().sprite = mineTextures[0];
+            }
+            else if (flagged)
+            {
+                FlagTileActive();
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().sprite = emptyTextures[adjacentCount];
+                collider.enabled = false;
+            }
         }
-        else if (flagged)
+        else if (GameManager.gamemode == "Diagonals")
         {
-            FlagTileActive();
+            if (mine)
+            {
+                GetComponent<SpriteRenderer>().sprite = mineTextures[0];
+            }
+            else if (flagged)
+            {
+                FlagTileActive();
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().sprite = emptyTextures[adjacentCount];
+                collider.enabled = false;
+            }
         }
-        else
+        else if (GameManager.gamemode == "Colour")
         {
-            GetComponent<SpriteRenderer>().sprite = emptyTextures[adjacentCount];
-            collider.enabled = false;
+            if (mine)
+            {
+                GetComponent<SpriteRenderer>().sprite = mineTextures[0];
+            }
+            else if (flagged)
+            {
+                FlagTileActive();
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().sprite = colourTiles[adjacentCount];
+                collider.enabled = false;
+            }
         }
     }
 

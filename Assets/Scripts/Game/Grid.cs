@@ -8,7 +8,7 @@ public class Grid : MonoBehaviour
     public static int w = 10, h = 13;
     public int spacing = 1;
     public Tile[,] tiles;
-    public static int minesAmount = 10;
+    public static int minesAmount = GameManager.mineAmounts[GameManager.mineAmountInt];
     public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
     public static int flagAmount;
@@ -73,14 +73,39 @@ public class Grid : MonoBehaviour
     public static int AdjacentMines(int x, int y)
     {
         int count = 0;
-        if (MineAt(x, y + 1)) ++count;//top
-        if (MineAt(x + 1, y + 1)) ++count;//top-right
-        if (MineAt(x + 1, y)) ++count;//right
-        if (MineAt(x + 1, y - 1)) ++count;//bottom-right
-        if (MineAt(x, y - 1)) ++count;//bottom
-        if (MineAt(x - 1, y - 1)) ++count;//bottom-left
-        if (MineAt(x - 1, y)) ++count;//left
-        if (MineAt(x - 1, y + 1)) ++count;//top-left
+        if (GameManager.gamemode == "Default")
+        {
+            if (MineAt(x, y + 1)) ++count;//top
+            if (MineAt(x + 1, y + 1)) ++count;//top-right
+            if (MineAt(x + 1, y)) ++count;//right
+            if (MineAt(x + 1, y - 1)) ++count;//bottom-right
+            if (MineAt(x, y - 1)) ++count;//bottom
+            if (MineAt(x - 1, y - 1)) ++count;//bottom-left
+            if (MineAt(x - 1, y)) ++count;//left
+            if (MineAt(x - 1, y + 1)) ++count;//top-left
+        }
+        else if (GameManager.gamemode == "Diagonals")
+        {
+            if (MineAt(x, y + 1)) ++count;//top
+            if (MineAt(x + 1, y + 1)) ++count;//top-right
+            if (MineAt(x + 1, y)) ++count;//right
+            if (MineAt(x + 1, y - 1)) ++count;//bottom-right
+            if (MineAt(x, y - 1)) ++count;//bottom
+            if (MineAt(x - 1, y - 1)) ++count;//bottom-left
+            if (MineAt(x - 1, y)) ++count;//left
+            if (MineAt(x - 1, y + 1)) ++count;//top-left
+        }
+        else if (GameManager.gamemode == "Colour")
+        {
+            if (MineAt(x, y + 1)) ++count;//top
+            if (MineAt(x + 1, y + 1)) ++count;//top-right
+            if (MineAt(x + 1, y)) ++count;//right
+            if (MineAt(x + 1, y - 1)) ++count;//bottom-right
+            if (MineAt(x, y - 1)) ++count;//bottom
+            if (MineAt(x - 1, y - 1)) ++count;//bottom-left
+            if (MineAt(x - 1, y)) ++count;//left
+            if (MineAt(x - 1, y + 1)) ++count;//top-left
+        }
         return count;
     }
     public static void UncoverMines()
