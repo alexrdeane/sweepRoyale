@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     public static int[] mineAmounts = { 10, 15, 20, 25, 30, 35, 40, 45, 50 };
     public static int mineAmountInt = 0;
 
-
+    public static string ipAddress;
 
 
 
@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        ipAddress = ipAddressField.text;
         GamemodeOption();
         MineAmountOption();
     }
