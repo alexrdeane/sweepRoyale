@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class Grid : MonoBehaviour
 {
+    public static Tile tile;
     public GameObject tilePrefab;
-    public static int w = 10, h = 13;
+    public static int w = 15, h = 20;
     public int spacing = 1;
-    public Tile[,] tiles;
+    public static Tile[,] tiles;
     public static int minesAmount = GameManager.mineAmounts[GameManager.mineAmountInt];
     public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
     public static int flagAmount;
+    public static int minesAmoun;
+
+    public static bool mineImmunity;
 
     Tile SpawnTile(Vector3 pos)
     {
@@ -29,7 +33,7 @@ public class Grid : MonoBehaviour
         return false;
     }
 
-    void GenerateTiles()
+    public void GenerateTiles()
     {
         tiles = new Tile[w, h];
         for (int x = 0; x < w; x++)
@@ -48,7 +52,7 @@ public class Grid : MonoBehaviour
         }
     }
 
-    void GenerateMines()
+    public void GenerateMines()
     {
         for (int i = 0; i < minesAmount; i++)
         {
@@ -63,17 +67,35 @@ public class Grid : MonoBehaviour
             }
         }
     }
+
+    public static void RegenerateMines()
+    {
+        for (int i = 0; i < Tile.mineRegenInt; i++)
+        {
+            Tile t = tiles[Random.Range(0, w), Random.Range(0, h)];
+            if (minesAmount <= 20)
+            {
+                if (!t.uncovered && !t.mine)
+                {
+                    t.mine = true;
+                    minesAmoun++;
+                }
+            }
+        }
+    }
+
     void Start()
     {
+        mineImmunity = true;
         GenerateTiles();
         GenerateMines();
         flagAmount = minesAmount;
     }
 
-    public static int AdjacentMines(int x, int y)
+    public static int AdjacentMines(int x, int y, bool check = false)
     {
         int count = 0;
-        if (GameManager.gamemode == "Default")
+        if (check)
         {
             if (MineAt(x, y + 1)) ++count;//top
             if (MineAt(x + 1, y + 1)) ++count;//top-right
@@ -82,6 +104,17 @@ public class Grid : MonoBehaviour
             if (MineAt(x, y - 1)) ++count;//bottom
             if (MineAt(x - 1, y - 1)) ++count;//bottom-left
             if (MineAt(x - 1, y)) ++count;//left
+            if (MineAt(x - 1, y + 1)) ++count;//top-left
+        }
+        else if (GameManager.gamemode == "Default")
+        {
+            //if (MineAt(x, y + 1)) ++count;//top
+            if (MineAt(x + 1, y + 1)) ++count;//top-right
+            //if (MineAt(x + 1, y)) ++count;//right
+            if (MineAt(x + 1, y - 1)) ++count;//bottom-right
+            //if (MineAt(x, y - 1)) ++count;//bottom
+            if (MineAt(x - 1, y - 1)) ++count;//bottom-left
+            //if (MineAt(x - 1, y)) ++count;//left
             if (MineAt(x - 1, y + 1)) ++count;//top-left
         }
         else if (GameManager.gamemode == "Colour")
@@ -129,7 +162,7 @@ public class Grid : MonoBehaviour
             elements[x, y].LoadTexture(AdjacentMines(x, y));
             elements[x, y].uncovered = true;
 
-            if (AdjacentMines(x, y) > 0)
+            if (AdjacentMines(x, y, true) > 0)
             {
                 return;
             }
@@ -200,5 +233,11 @@ public class Grid : MonoBehaviour
         {
             RestartGame.GameRestart();
         }
+
+        if (Tile.mineImmuneInt <= 0)
+        {
+            mineImmunity = false;
+        }
+        minesAmoun = minesAmount;
     }
 }

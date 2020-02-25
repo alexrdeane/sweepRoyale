@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 
     public int matchmakingInt;
 
-    public static int[] mineAmounts = { 10, 15, 20, 25, 30, 35, 40, 45, 50 };
+    public static int[] mineAmounts = { 20, 30, 40, 50, 60, 70, 80, 90, 100 };
     public static int mineAmountInt = 0;
 
     public static string ipAddress;

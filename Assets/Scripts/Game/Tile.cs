@@ -6,7 +6,7 @@ public class Tile : MonoBehaviour
 {
     public int x, y;
     public static float r, g, b;
-    public bool mine, uncovered = false, flagged = false;
+    public bool mine, uncovered, flagged = false;
     public Sprite[] defaultTiles;
     public Sprite[] colourTiles;
     public Sprite[] emptyTextures;
@@ -14,6 +14,9 @@ public class Tile : MonoBehaviour
     public new BoxCollider2D collider;
     public Color lerpedOver = Color.white;
     public Color lerpedOff = new Color(r, g, b);
+
+    public static int mineImmuneInt = 3;
+    public static int mineRegenInt = 0;
 
 
     void Start()
@@ -82,15 +85,27 @@ public class Tile : MonoBehaviour
         GetComponent<SpriteRenderer>().color = Color.Lerp(lerpedOff, lerpedOver, 0f);
         if (Input.GetMouseButtonDown(0))
         {
+            mineImmuneInt--;
             if (!flagged)
             {
-                if (mine)
+                if (mine && Grid.mineImmunity == true)
+                {
+                    mine = false;
+                    mineRegenInt++;
+                    mineRegenInt++;
+                    mineRegenInt++;
+                    Grid.RegenerateMines();
+                    LoadTexture(Grid.AdjacentMines(x, y));
+                    Grid.FFuncover(x, y, new bool[Grid.w, Grid.h]);
+                }
+                else if (mine && Grid.mineImmunity == false)
                 {
                     print("lose");
                     Grid.GameEnded();
                     Grid.UncoverMines();
                     LoadExploded();
                 }
+
                 else
                 {
                     int x = (int)transform.position.x;
@@ -104,27 +119,27 @@ public class Tile : MonoBehaviour
                     }
                 }
             }
-        }
-        else if (Input.GetMouseButtonDown(1))
-        {
-            if (flagged == true)
+            else if (Input.GetMouseButtonDown(1))
             {
-                FlagTileInactive();
-                Grid.flagAmount++;
-            }
-            else
-            {
-                if (Grid.flagAmount >= 1)
+                if (flagged == true)
                 {
-                    FlagTileActive();
-                    Grid.flagAmount--;
+                    FlagTileInactive();
+                    Grid.flagAmount++;
+                }
+                else
+                {
+                    if (Grid.flagAmount >= 1)
+                    {
+                        FlagTileActive();
+                        Grid.flagAmount--;
+                    }
                 }
             }
-        }
-        else if (Grid.IsFinishedBombsFlagged())
-        {
-            print("winner bombs flagged");
-            Grid.GameEnded();
+            else if (Grid.IsFinishedBombsFlagged())
+            {
+                print("winner bombs flagged");
+                Grid.GameEnded();
+            }
         }
     }
 
