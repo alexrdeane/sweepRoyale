@@ -15,9 +15,7 @@ public class Tile : MonoBehaviour
     public Color lerpedOver = Color.white;
     public Color lerpedOff = new Color(r, g, b);
 
-    public static int mineImmuneInt = 3;
-    public static int mineRegenInt = 0;
-
+    public static bool activate = false;
 
     void Start()
     {
@@ -28,6 +26,22 @@ public class Tile : MonoBehaviour
     public void LoadTexture(int adjacentCount)
     {
         if (GameManager.gamemode == "Default")
+        {
+            if (mine)
+            {
+                GetComponent<SpriteRenderer>().sprite = mineTextures[0];
+            }
+            else if (flagged)
+            {
+                FlagTileActive();
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().sprite = emptyTextures[adjacentCount];
+                collider.enabled = false;
+            }
+        }
+        else if (GameManager.gamemode == "Diagonal")
         {
             if (mine)
             {
@@ -85,21 +99,12 @@ public class Tile : MonoBehaviour
         GetComponent<SpriteRenderer>().color = Color.Lerp(lerpedOff, lerpedOver, 0f);
         if (Input.GetMouseButtonDown(0))
         {
-            mineImmuneInt--;
+            LoadTexture(Grid.AdjacentMines(x, y));
             if (!flagged)
             {
-                if (mine && Grid.mineImmunity == true)
+                if (mine)
                 {
-                    mine = false;
-                    mineRegenInt++;
-                    mineRegenInt++;
-                    mineRegenInt++;
-                    Grid.RegenerateMines();
                     LoadTexture(Grid.AdjacentMines(x, y));
-                    Grid.FFuncover(x, y, new bool[Grid.w, Grid.h]);
-                }
-                else if (mine && Grid.mineImmunity == false)
-                {
                     print("lose");
                     Grid.GameEnded();
                     Grid.UncoverMines();
@@ -119,27 +124,27 @@ public class Tile : MonoBehaviour
                     }
                 }
             }
-            else if (Input.GetMouseButtonDown(1))
+        }
+        else if (Input.GetMouseButtonDown(1))
+        {
+            if (flagged == true)
             {
-                if (flagged == true)
+                FlagTileInactive();
+                Grid.flagAmount++;
+            }
+            else
+            {
+                if (Grid.flagAmount >= 1)
                 {
-                    FlagTileInactive();
-                    Grid.flagAmount++;
-                }
-                else
-                {
-                    if (Grid.flagAmount >= 1)
-                    {
-                        FlagTileActive();
-                        Grid.flagAmount--;
-                    }
+                    FlagTileActive();
+                    Grid.flagAmount--;
                 }
             }
-            else if (Grid.IsFinishedBombsFlagged())
-            {
-                print("winner bombs flagged");
-                Grid.GameEnded();
-            }
+        }
+        else if (Grid.IsFinishedBombsFlagged())
+        {
+            print("winner bombs flagged");
+            Grid.GameEnded();
         }
     }
 

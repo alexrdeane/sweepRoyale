@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Grid : MonoBehaviour
 {
@@ -13,9 +14,6 @@ public class Grid : MonoBehaviour
     public static Tile[,] elements = new Tile[w, h];
     public static bool gameEndedBool;
     public static int flagAmount;
-    public static int minesAmoun;
-
-    public static bool mineImmunity;
 
     Tile SpawnTile(Vector3 pos)
     {
@@ -68,25 +66,8 @@ public class Grid : MonoBehaviour
         }
     }
 
-    public static void RegenerateMines()
-    {
-        for (int i = 0; i < Tile.mineRegenInt; i++)
-        {
-            Tile t = tiles[Random.Range(0, w), Random.Range(0, h)];
-            if (minesAmount <= 20)
-            {
-                if (!t.uncovered && !t.mine)
-                {
-                    t.mine = true;
-                    minesAmoun++;
-                }
-            }
-        }
-    }
-
     void Start()
     {
-        mineImmunity = true;
         GenerateTiles();
         GenerateMines();
         flagAmount = minesAmount;
@@ -95,7 +76,7 @@ public class Grid : MonoBehaviour
     public static int AdjacentMines(int x, int y, bool check = false)
     {
         int count = 0;
-        if (check)
+        if (GameManager.gamemode == "Default")
         {
             if (MineAt(x, y + 1)) ++count;//top
             if (MineAt(x + 1, y + 1)) ++count;//top-right
@@ -106,7 +87,19 @@ public class Grid : MonoBehaviour
             if (MineAt(x - 1, y)) ++count;//left
             if (MineAt(x - 1, y + 1)) ++count;//top-left
         }
-        else if (GameManager.gamemode == "Default")
+
+        else if (check)
+        {
+            if (MineAt(x, y + 1)) ++count;//top
+            if (MineAt(x + 1, y + 1)) ++count;//top-right
+            if (MineAt(x + 1, y)) ++count;//right
+            if (MineAt(x + 1, y - 1)) ++count;//bottom-right
+            if (MineAt(x, y - 1)) ++count;//bottom
+            if (MineAt(x - 1, y - 1)) ++count;//bottom-left
+            if (MineAt(x - 1, y)) ++count;//left
+            if (MineAt(x - 1, y + 1)) ++count;//top-left
+        }
+        else if (GameManager.gamemode == "Diagonal")
         {
             //if (MineAt(x, y + 1)) ++count;//top
             if (MineAt(x + 1, y + 1)) ++count;//top-right
@@ -179,6 +172,17 @@ public class Grid : MonoBehaviour
                 FFuncover(x - 1, y - 1, visited);
                 FFuncover(x - 1, y + 1, visited);
             }
+            else if (GameManager.gamemode == "Diagonal")
+            {
+                FFuncover(x - 1, y, visited);
+                FFuncover(x + 1, y, visited);
+                FFuncover(x, y - 1, visited);
+                FFuncover(x, y + 1, visited);
+                FFuncover(x + 1, y + 1, visited);
+                FFuncover(x + 1, y - 1, visited);
+                FFuncover(x - 1, y - 1, visited);
+                FFuncover(x - 1, y + 1, visited);
+            }
             else if (GameManager.gamemode == "Colour")
             {
                 FFuncover(x - 1, y, visited);
@@ -231,13 +235,7 @@ public class Grid : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            RestartGame.GameRestart();
+            SceneManager.LoadScene(1);
         }
-
-        if (Tile.mineImmuneInt <= 0)
-        {
-            mineImmunity = false;
-        }
-        minesAmoun = minesAmount;
     }
 }
