@@ -72,7 +72,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  m_Sprite: {fileID: 4624797812149796901, guid: b16df78ec1ff7bb40af245101408dad1,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -150,9 +151,9 @@ MonoBehaviour:
   - {fileID: -1890175901066138983, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
   - {fileID: 5023403068744793262, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
   mineTextures:
-  - {fileID: 21300004, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300006, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
-  - {fileID: 21300008, guid: 91c74db911da2f34c902e06a2e7e5d3e, type: 3}
+  - {fileID: 6897964090640250241, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 1417874749630265984, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 1249331874027798632, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
   collider: {fileID: 0}
   lerpedOver: {r: 1, g: 1, b: 1, a: 1}
   lerpedOff: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
