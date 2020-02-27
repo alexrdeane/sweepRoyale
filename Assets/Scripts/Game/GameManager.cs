@@ -35,7 +35,9 @@ public class GameManager : MonoBehaviour
 
     public static string ipAddress;
 
-
+    public Menu[] menuPanels;
+    public int menuPanelInt = 0;
+    public int menuPanelIntPrev;
 
     public static GameManager instance;
     public TMP_InputField usernameField;
@@ -63,6 +65,11 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (menuPanelInt != menuPanelIntPrev)
+        {
+            CurrentMenu();
+            menuPanelIntPrev = menuPanelInt;
+        }
         ipAddress = ipAddressField.text;
         GamemodeOption();
         MineAmountOption();
@@ -124,23 +131,6 @@ public class GameManager : MonoBehaviour
         mineAmountOptionText.text = mineAmounts[mineAmountInt].ToString();
     }
 
-    public void StartGame()
-    {
-        mainMenuPanel.SetActive(false);
-        serverPanel.SetActive(false);
-        gameplayOptionsPanel.SetActive(false);
-        matchmakingPanel.SetActive(true);
-    }
-
-    public void Singleplayer()
-    {
-        mainMenuPanel.SetActive(false);
-        serverPanel.SetActive(false);
-        gameplayOptionsPanel.SetActive(true);
-        matchmakingPanel.SetActive(false);
-        matchmakingInt = 0;
-    }
-
     public void Versus()
     {
         if (hostingToggle.isOn == true)
@@ -176,16 +166,47 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void BackToMenu()
-    {
-        mainMenuPanel.SetActive(true);
-        gameplayOptionsPanel.SetActive(false);
-        matchmakingPanel.SetActive(false);
-    }
-
     public void ConnectToServer()
     {
         usernameField.interactable = false;
         Client.instance.ConnectToServer();
     }
+
+    public void NextButton()
+    {
+        menuPanelInt++;
+        if (menuPanelInt >= menuPanels.Length)
+        {
+            menuPanelInt = menuPanels.Length - 1;
+        }
+        print(menuPanelInt);
+    }
+
+    public void PreviousButton()
+    {
+        menuPanelInt--;
+        if (menuPanelInt <= -1)
+        {
+            menuPanelInt = 0;
+        }
+        print(menuPanelInt);
+    }
+
+    public void CurrentMenu()
+    {
+        foreach (Menu menuPanel in menuPanels)
+        {
+            menuPanel.panel.SetActive(false);
+        }
+        menuPanels[menuPanelInt].panel.SetActive(true);
+    }
 }
+
+[System.Serializable]
+public class Menu
+{
+    public string panelName;
+    public GameObject panel;
+
+}
+//231 unchanged

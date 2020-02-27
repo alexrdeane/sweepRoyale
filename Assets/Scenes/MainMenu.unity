@@ -3301,7 +3301,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2135498136}
-        m_MethodName: StartGame
+        m_MethodName: NextButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5524,7 +5524,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2135498136}
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
@@ -5763,7 +5763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -106.5}
+  m_AnchoredPosition: {x: 0, y: -106.50012}
   m_SizeDelta: {x: 0, y: 13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1760165661
@@ -7284,6 +7284,17 @@ MonoBehaviour:
   ipAddressField: {fileID: 881123677}
   hostingToggle: {fileID: 533686661}
   matchmakingInt: 0
+  menuPanels:
+  - panelName: Main Menu
+    panel: {fileID: 124469886}
+  - panelName: Matchmaking Menu
+    panel: {fileID: 448512168}
+  - panelName: Gameplay Options Menu
+    panel: {fileID: 358804854}
+  - panelName: Server Menu
+    panel: {fileID: 848287960}
+  menuPanelInt: 0
+  menuPanelIntPrev: 0
   usernameField: {fileID: 520318561}
 --- !u!1 &2142525501
 GameObject:
