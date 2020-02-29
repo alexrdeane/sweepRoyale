@@ -7,40 +7,32 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public Button startGame;
-    public Button exitGame;
-    public GameObject mainMenuPanel;
-    public GameObject gameplayOptionsPanel;
-    public GameObject matchmakingPanel;
-    public GameObject serverPanel;
-    public TMP_Text gamemodeOptionText;
-    public TMP_Text mineAmountOptionText;
-    public Button gamemodeOptionLeft;
-    public Button gamemodeOptionRight;
-    public Button beginGameButton;
-    public Button backToMenuButton;
-    public Button singleplayerButton;
-    public Button versusButton;
-    public Button connectButton;
-    public TMP_InputField ipAddressField;
-    public Toggle hostingToggle;
+    [HideInInspector] public GameObject mainMenuPanel;
+    [HideInInspector] public GameObject gameplayOptionsPanel;
+    [HideInInspector] public GameObject matchmakingPanel;
+    [HideInInspector] public GameObject serverPanel;
+    [HideInInspector] public TMP_Text gamemodeOptionText;
+    [HideInInspector] public TMP_Text mineAmountOptionText;
+    [HideInInspector] public TMP_InputField ipAddressField;
+    [HideInInspector] public Toggle hostingToggle;
 
-    public static int gamemodeInt = 0;
-    public static string gamemode;
+    [HideInInspector] public static int gamemodeInt = 0;
+    [HideInInspector] public static string gamemode;
 
-    public int matchmakingInt;
+    [HideInInspector] public static int[] mineAmounts = { 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+    [HideInInspector] public static int mineAmountInt = 0;
 
-    public static int[] mineAmounts = { 20, 30, 40, 50, 60, 70, 80, 90, 100 };
-    public static int mineAmountInt = 0;
+    [HideInInspector] public static string ipAddress;
 
-    public static string ipAddress;
+    [HideInInspector] public Menu[] menuPanels;
+    [HideInInspector] public string[] panelNames = { "Main", "Matchmaking", "GameOptions", "Server" };
+    [HideInInspector] public int mainInt = -1, matchInt = -1, gameInt = -1, serverInt = -1;
+    [HideInInspector] public bool singlePlay;
 
-    public Menu[] menuPanels;
-    public int menuPanelInt = 0;
-    public int menuPanelIntPrev;
+    [HideInInspector] private int menuPanelInt, menuPanelIntPrev;
 
-    public static GameManager instance;
-    public TMP_InputField usernameField;
+    [HideInInspector] public static GameManager instance;
+    [HideInInspector] public TMP_InputField usernameField;
 
     public enum Gamemodes
     {
@@ -87,7 +79,6 @@ public class GameManager : MonoBehaviour
         {
             gamemodeInt = (int)Gamemodes.EndOfEnum - 1;
         }
-        print(gamemodeInt);
     }
 
     public void GamemodeOptionRight()
@@ -97,7 +88,6 @@ public class GameManager : MonoBehaviour
         {
             gamemodeInt = 0;
         }
-        print(gamemodeInt);
     }
 
     public void GamemodeOption()
@@ -113,7 +103,6 @@ public class GameManager : MonoBehaviour
         {
             mineAmountInt = mineAmounts.Length - 1;
         }
-        print(mineAmountInt);
     }
 
     public void MineAmountOptionRight()
@@ -123,7 +112,6 @@ public class GameManager : MonoBehaviour
         {
             mineAmountInt = 0;
         }
-        print(mineAmountInt);
     }
 
     public void MineAmountOption()
@@ -131,55 +119,53 @@ public class GameManager : MonoBehaviour
         mineAmountOptionText.text = mineAmounts[mineAmountInt].ToString();
     }
 
-    public void Versus()
+    public void ConnectToServer()
     {
-        if (hostingToggle.isOn == true)
-        {
-            mainMenuPanel.SetActive(false);
-            gameplayOptionsPanel.SetActive(true);
-            matchmakingPanel.SetActive(false);
-            matchmakingInt = 1;
-        }
-        else if (hostingToggle.isOn == false)
-        {
-            mainMenuPanel.SetActive(false);
-            serverPanel.SetActive(true);
-            gameplayOptionsPanel.SetActive(false);
-            matchmakingPanel.SetActive(false);
-            matchmakingInt = 1;
-        }
+        usernameField.interactable = false;
+        Client.instance.ConnectToServer();
+        SceneManager.LoadScene(0);
+    }
+
+    public void SinglePlay()
+    {
+        singlePlay = true;
+        NextButton();
     }
 
     public void Begin()
     {
-        if (hostingToggle.isOn == true)
+        if (hostingToggle == true && singlePlay == false)
         {
-            mainMenuPanel.SetActive(false);
-            serverPanel.SetActive(false);
-            gameplayOptionsPanel.SetActive(false);
-            matchmakingPanel.SetActive(false);
-            serverPanel.SetActive(true);
+            menuPanelInt = serverInt;
         }
-        else if (hostingToggle.isOn == false)
+        else if (singlePlay == true)
         {
             SceneManager.LoadScene(1);
         }
     }
 
-    public void ConnectToServer()
-    {
-        usernameField.interactable = false;
-        Client.instance.ConnectToServer();
-    }
-
     public void NextButton()
     {
+        MenuToInt();
         menuPanelInt++;
         if (menuPanelInt >= menuPanels.Length)
         {
             menuPanelInt = menuPanels.Length - 1;
         }
-        print(menuPanelInt);
+        if (menuPanelInt == gameInt)
+        {
+            if (singlePlay == false)
+            {
+                if (hostingToggle.isOn == true)
+                {
+                    menuPanelInt = gameInt;
+                }
+                else if (hostingToggle.isOn == false)
+                {
+                    menuPanelInt = serverInt;
+                }
+            }
+        }
     }
 
     public void PreviousButton()
@@ -189,7 +175,6 @@ public class GameManager : MonoBehaviour
         {
             menuPanelInt = 0;
         }
-        print(menuPanelInt);
     }
 
     public void CurrentMenu()
@@ -200,6 +185,38 @@ public class GameManager : MonoBehaviour
         }
         menuPanels[menuPanelInt].panel.SetActive(true);
     }
+
+    public void MenuToInt()
+    {
+        for (int i = 0; i < panelNames.Length; i++)
+        {
+            if (panelNames[i] == "Menu")
+            {
+                mainInt = i;
+            }
+        }
+        for (int i = 0; i < panelNames.Length; i++)
+        {
+            if (panelNames[i] == "Matchmaking")
+            {
+                matchInt = i;
+            }
+        }
+        for (int i = 0; i < panelNames.Length; i++)
+        {
+            if (panelNames[i] == "GameOptions")
+            {
+                gameInt = i;
+            }
+        }
+        for (int i = 0; i < panelNames.Length; i++)
+        {
+            if (panelNames[i] == "Server")
+            {
+                serverInt = i;
+            }
+        }
+    }
 }
 
 [System.Serializable]
@@ -207,6 +224,4 @@ public class Menu
 {
     public string panelName;
     public GameObject panel;
-
 }
-//231 unchanged

@@ -99,7 +99,6 @@ public class Tile : MonoBehaviour
         GetComponent<SpriteRenderer>().color = Color.Lerp(lerpedOff, lerpedOver, 0f);
         if (Input.GetMouseButtonDown(0))
         {
-            LoadTexture(Grid.AdjacentMines(x, y));
             if (!flagged)
             {
                 if (mine)
