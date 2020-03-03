@@ -7,35 +7,23 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [HideInInspector] public GameObject mainMenuPanel;
-    [HideInInspector] public GameObject gameplayOptionsPanel;
-    [HideInInspector] public GameObject matchmakingPanel;
-    [HideInInspector] public GameObject serverPanel;
-    [HideInInspector] public TMP_Text gamemodeOptionText;
-    [HideInInspector] public TMP_Text mineAmountOptionText;
-    [HideInInspector] public TMP_InputField ipAddressField;
-    [HideInInspector] public Toggle hostingToggle;
+    public GameObject mainMenuPanel, gameplayOptionsPanel, matchmakingPanel, serverPanel;
+    public TMP_Text gamemodeOptionText, mineAmountOptionText;
+    public TMP_InputField usernameField, ipAddressField;
+    public Toggle hostingToggle;
 
-    [HideInInspector] public static int gamemodeInt = 0;
-    [HideInInspector] public static string gamemode;
+    public static int gamemodeInt = 0;
+    public static string gamemode, ipAddress;
 
-    [HideInInspector] public static int[] mineAmounts = { 20, 30, 40, 50, 60, 70, 80, 90, 100 };
-    [HideInInspector] public static int mineAmountInt = 0;
+    public static int[] mineAmounts = { 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+    public static int mineAmountInt = 0;
 
-    [HideInInspector] public static string ipAddress;
+    public Menu[] menuPanels;
+    public string[] panelNames = { "Main", "Matchmaking", "GameOptions", "Server" };
+    public int mainInt = -1, matchInt = -1, gameInt = -1, serverInt = -1, menuPanelInt, menuPanelIntPrev;
+    public bool singlePlay;
 
-    [HideInInspector] public Menu[] menuPanels;
-    [HideInInspector] public string[] panelNames = { "Main", "Matchmaking", "GameOptions", "Server" };
-    [HideInInspector] public int mainInt = -1, matchInt = -1, gameInt = -1, serverInt = -1;
-    [HideInInspector] public bool singlePlay;
-
-    [HideInInspector] private int menuPanelInt, menuPanelIntPrev;
-
-    [HideInInspector] public static GameManager instance;
-    [HideInInspector] public TMP_InputField usernameField;
-
-    public int gInt;
-    public int mInt;
+    public static GameManager instance;
 
     public enum Gamemodes
     {
@@ -85,8 +73,7 @@ public class GameManager : MonoBehaviour
 
     public void GamemodeOptionButton(int g)
     {
-        gInt = g;
-        gamemodeInt -= gInt;
+        gamemodeInt -= g;
     }
 
     public void GM()
@@ -105,13 +92,11 @@ public class GameManager : MonoBehaviour
 
     public void MineOptionButton(int m)
     {
-        mInt = m;
-        mineAmountInt -= mInt;
+        mineAmountInt -= m;
     }
 
     public void MA()
     {
-        mineAmountOptionText.text = mineAmounts[mineAmountInt].ToString();
         if (mineAmountInt <= -1)
         {
             mineAmountInt = mineAmounts.Length - 1;
@@ -120,6 +105,7 @@ public class GameManager : MonoBehaviour
         {
             mineAmountInt = 0;
         }
+        mineAmountOptionText.text = mineAmounts[mineAmountInt].ToString();
     }
 
     public void ConnectToServer()
@@ -129,11 +115,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void SinglePlay()
+    public void SinglePlay(int sP)
     {
         singlePlay = true;
-        menuPanelInt = (int)MenuPanel.GameOptions;
-        NextButton(menuPanelInt);
+        menuPanelInt -= sP;
     }
 
     public void Begin()
@@ -148,7 +133,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void NextButton(int mB)
+    public void MenuButton(int mB)
     {
         menuPanelInt -= mB;
         if (menuPanelInt >= menuPanels.Length)
@@ -167,6 +152,10 @@ public class GameManager : MonoBehaviour
                 {
                     menuPanelInt = (int)MenuPanel.Server;
                 }
+            }
+            if (singlePlay == true && hostingToggle == true)
+            {
+                menuPanelInt = (int)MenuPanel.GameOptions;
             }
         }
         if (menuPanelInt <= -1)

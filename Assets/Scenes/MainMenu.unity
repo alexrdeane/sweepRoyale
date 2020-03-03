@@ -879,7 +879,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: -1
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1882,12 +1882,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2135498136}
-        m_MethodName: PreviousButton
-        m_Mode: 1
+        m_MethodName: MenuButton
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3017,7 +3017,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2135498136}
-        m_MethodName: NextButton
+        m_MethodName: MenuButton
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3301,7 +3301,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2135498136}
-        m_MethodName: NextButton
+        m_MethodName: MenuButton
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4143,7 +4143,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: -1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4641,7 +4641,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: -1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5158,7 +5158,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2135498136}
-        m_MethodName: NextButton
+        m_MethodName: MenuButton
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5964,7 +5964,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: -1
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6866,7 +6866,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2135498136}
         m_MethodName: SinglePlay
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7272,6 +7272,7 @@ MonoBehaviour:
   serverPanel: {fileID: 848287960}
   gamemodeOptionText: {fileID: 756836298}
   mineAmountOptionText: {fileID: 1566372631}
+  usernameField: {fileID: 520318561}
   ipAddressField: {fileID: 881123677}
   hostingToggle: {fileID: 533686661}
   menuPanels:
@@ -7292,10 +7293,9 @@ MonoBehaviour:
   matchInt: 0
   gameInt: 0
   serverInt: 0
+  menuPanelInt: 0
+  menuPanelIntPrev: 0
   singlePlay: 0
-  usernameField: {fileID: 520318561}
-  gInt: 0
-  mInt: 0
 --- !u!1 &2142525501
 GameObject:
   m_ObjectHideFlags: 0

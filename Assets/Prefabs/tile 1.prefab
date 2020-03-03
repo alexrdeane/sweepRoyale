@@ -101,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.47068965, y: 0.47068965}
+    oldSize: {x: 0.9413793, y: 0.9413793}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -128,18 +128,18 @@ MonoBehaviour:
   uncovered: 0
   flagged: 0
   defaultTiles:
-  - {fileID: 4624797812149796901, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: -5135694265555246911, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
   - {fileID: 1485637708333654533, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
   colourTiles:
   - {fileID: 8362282779589851005, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
-  - {fileID: -7391211634950519494, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
-  - {fileID: 3743820139800004961, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
-  - {fileID: 2298614392994652598, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
-  - {fileID: -9178500684701304143, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
-  - {fileID: 2926817726940048558, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
-  - {fileID: 4297588979402307650, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
-  - {fileID: 2260792132379354601, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
-  - {fileID: 3260457231299519116, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
+  - {fileID: -6026125257520676860, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 2611765172329159392, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: -894884633875082799, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 5730212717366585059, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 275727824740549542, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: -3082286330361802549, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: -3476426377522975018, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
+  - {fileID: 3397111610976742256, guid: b16df78ec1ff7bb40af245101408dad1, type: 3}
   emptyTextures:
   - {fileID: 4972846096453468694, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
   - {fileID: 2023375777579980657, guid: 8d468b60e32f58f4a9e82223988b4119, type: 3}
