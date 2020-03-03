@@ -34,12 +34,23 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public static GameManager instance;
     [HideInInspector] public TMP_InputField usernameField;
 
+    public int gInt;
+    public int mInt;
+
     public enum Gamemodes
     {
         Default,
         Diagonal,
         Colour,
         EndOfEnum
+    }
+
+    public enum MenuPanel
+    {
+        Main = 0,
+        Matchmaking = 1,
+        GameOptions = 2,
+        Server = 3
     }
 
     private void Awake()
@@ -63,8 +74,8 @@ public class GameManager : MonoBehaviour
             menuPanelIntPrev = menuPanelInt;
         }
         ipAddress = ipAddressField.text;
-        GamemodeOption();
-        MineAmountOption();
+        GM();
+        MA();
     }
 
     public void ExitGame()
@@ -72,51 +83,43 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void GamemodeOptionLeft()
+    public void GamemodeOptionButton(int g)
     {
-        gamemodeInt--;
+        gInt = g;
+        gamemodeInt -= gInt;
+    }
+
+    public void GM()
+    {
+        gamemodeOptionText.text = ((Gamemodes)gamemodeInt).ToString();
+        gamemode = ((Gamemodes)gamemodeInt).ToString();
         if (gamemodeInt <= -1)
         {
             gamemodeInt = (int)Gamemodes.EndOfEnum - 1;
         }
-    }
-
-    public void GamemodeOptionRight()
-    {
-        gamemodeInt++;
         if (gamemodeInt >= (int)Gamemodes.EndOfEnum)
         {
             gamemodeInt = 0;
         }
     }
 
-    public void GamemodeOption()
+    public void MineOptionButton(int m)
     {
-        gamemodeOptionText.text = ((Gamemodes)gamemodeInt).ToString();
-        gamemode = ((Gamemodes)gamemodeInt).ToString();
+        mInt = m;
+        mineAmountInt -= mInt;
     }
 
-    public void MineAmountOptionLeft()
+    public void MA()
     {
-        mineAmountInt--;
+        mineAmountOptionText.text = mineAmounts[mineAmountInt].ToString();
         if (mineAmountInt <= -1)
         {
             mineAmountInt = mineAmounts.Length - 1;
         }
-    }
-
-    public void MineAmountOptionRight()
-    {
-        mineAmountInt++;
         if (mineAmountInt >= mineAmounts.Length)
         {
             mineAmountInt = 0;
         }
-    }
-
-    public void MineAmountOption()
-    {
-        mineAmountOptionText.text = mineAmounts[mineAmountInt].ToString();
     }
 
     public void ConnectToServer()
@@ -129,14 +132,15 @@ public class GameManager : MonoBehaviour
     public void SinglePlay()
     {
         singlePlay = true;
-        NextButton();
+        menuPanelInt = (int)MenuPanel.GameOptions;
+        NextButton(menuPanelInt);
     }
 
     public void Begin()
     {
         if (hostingToggle == true && singlePlay == false)
         {
-            menuPanelInt = serverInt;
+            menuPanelInt = (int)MenuPanel.Server;
         }
         else if (singlePlay == true)
         {
@@ -144,33 +148,27 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void NextButton()
+    public void NextButton(int mB)
     {
-        MenuToInt();
-        menuPanelInt++;
+        menuPanelInt -= mB;
         if (menuPanelInt >= menuPanels.Length)
         {
             menuPanelInt = menuPanels.Length - 1;
         }
-        if (menuPanelInt == gameInt)
+        if (menuPanelInt == (int)MenuPanel.GameOptions)
         {
             if (singlePlay == false)
             {
                 if (hostingToggle.isOn == true)
                 {
-                    menuPanelInt = gameInt;
+                    menuPanelInt = (int)MenuPanel.GameOptions;
                 }
                 else if (hostingToggle.isOn == false)
                 {
-                    menuPanelInt = serverInt;
+                    menuPanelInt = (int)MenuPanel.Server;
                 }
             }
         }
-    }
-
-    public void PreviousButton()
-    {
-        menuPanelInt--;
         if (menuPanelInt <= -1)
         {
             menuPanelInt = 0;
@@ -184,38 +182,6 @@ public class GameManager : MonoBehaviour
             menuPanel.panel.SetActive(false);
         }
         menuPanels[menuPanelInt].panel.SetActive(true);
-    }
-
-    public void MenuToInt()
-    {
-        for (int i = 0; i < panelNames.Length; i++)
-        {
-            if (panelNames[i] == "Menu")
-            {
-                mainInt = i;
-            }
-        }
-        for (int i = 0; i < panelNames.Length; i++)
-        {
-            if (panelNames[i] == "Matchmaking")
-            {
-                matchInt = i;
-            }
-        }
-        for (int i = 0; i < panelNames.Length; i++)
-        {
-            if (panelNames[i] == "GameOptions")
-            {
-                gameInt = i;
-            }
-        }
-        for (int i = 0; i < panelNames.Length; i++)
-        {
-            if (panelNames[i] == "Server")
-            {
-                serverInt = i;
-            }
-        }
     }
 }
 
